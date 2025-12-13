@@ -2,13 +2,19 @@ name: Fetch Football CSV
 
 on:
   schedule:
+    # Perşembe 03:00 UTC
     - cron: '0 3 * * 4'
+    # Pazar 03:00 UTC
     - cron: '0 3 * * 0'
   workflow_dispatch:
 
 jobs:
   fetch-csv:
     runs-on: ubuntu-latest
+    # Gerekli izinleri belirtiyoruz. Bu, GITHUB_TOKEN'ın commit yapabilmesi için önemlidir.
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -21,22 +27,35 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 selenium webdriver-manager
+          # webdriver-manager kaldırıldı, Chrome kurulumu ayrı bir adımda yapılıyor
+          pip install requests beautifulsoup4 selenium
 
       - name: Install Chrome
+        # Chrome kurulumu için daha basit bir eylem kullanıyoruz
         uses: browser-actions/setup-chrome@v1
-
+        
+      # NOT: fetch_football_data.py dosyanızın PATH içinde Chrome'u bulabilmesi için
+      # bu adımda PATH'i doğru ayarladığımızdan emin olmalıyız.
+      # setup-chrome eylemi bunu genellikle otomatik yapar.
+      
       - name: Run fetch script
         run: |
           echo "Starting CSV fetch..."
+          # Python betiğinizin adı:
           python fetch_football_data.py || echo "Script failed, check logs!"
 
-      - name: Commit updated CSVs
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add data/
-          git commit -m "Update CSVs" || echo "No changes"
-          git push https://x-access-token:${GH_PAT}@github.com/ASRSES/football-data-archive.git HEAD:main
+      # *** GÜVENLİ VE OTOMATİK COMMIT ADIMI ***
+      # Bu adım, güncellenen CSV'leri otomatik olarak işler ve depoya gönderir.
+      # GH_PAT'e İHTİYAÇ YOKTUR.
+      - name: Commit and Push updated CSVs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Sadece 'data/' klasöründeki değişiklikleri işle
+          file_pattern: 'data/**'
+          # Commit mesajı
+          commit_message: "Veri Güncelleme: Otomatik CSV Çekimi"
+          # Commit yazar ve e-posta adresi (GitHub'ın bot kullanıcısı)
+          commit_user_name: 'GitHub Actions Bot'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          # GITHUB_TOKEN otomatik olarak kullanılır
+          token: ${{ secrets.GITHUB_TOKEN }}
