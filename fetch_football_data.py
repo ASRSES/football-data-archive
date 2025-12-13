@@ -3,11 +3,11 @@ import re
 import time
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 # Sabitler (Ayarlar)
 BASE_URL = "https://www.football-data.co.uk/"
-# Sadece ana dizin sayfasından başlayacağız ve tüm alt sayfaları takip edeceğiz.
+# Sadece ana dizin sayfasından başlayacağız
 DATA_PAGES = ["data.php"]
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True) # Ana veri klasörünü oluştur
@@ -19,10 +19,8 @@ RETRY_DELAY = 5
 def parse_league_and_season(csv_url):
     """
     Dosya adından ligi ve sezon yılını (sıralama anahtarı olarak) çıkarır.
-    1993'ten itibaren kronolojik sıralamayı garanti eder.
     """
     filename = os.path.basename(csv_url)
-    # Match kısaltmaları: E0, I1, SP1 gibi
     match = re.match(r"([A-Z]+\d*)(?:_(\d{2,4}))?\.csv", filename)
     league, season_str = ("misc", None)
     
@@ -30,13 +28,11 @@ def parse_league_and_season(csv_url):
         league = match.group(1)
         season_str = match.group(2)
         
-    season_key = 9999 # Varsayılan: En güncel sezon (E0.csv gibi) en sona gider.
+    season_key = 9999
     
     if season_str:
         if len(season_str) == 2:
             season_int = int(season_str)
-            
-            # 2 haneli yıl mantığı: 93'ten büyük veya eşit olanlar 19XX, küçük olanlar 20XX.
             if season_int >= 93:
                 prefix = '19'
             else:
@@ -46,7 +42,7 @@ def parse_league_and_season(csv_url):
         elif len(season_str) == 4:
             season_key = int(season_str)
 
-    # Eğer lig kısaltması Regex desenine uymazsa (örn: example.csv) "misc" olarak kalır.
+    # Eğer lig kısaltması Regex desenine uymazsa (örn: example.csv), "misc" klasörüne gider.
     return league, season_key, filename
 
 def get_all_csv_links():
@@ -58,15 +54,12 @@ def get_all_csv_links():
     
     # Tüm alt sayfalara (englandm.php, italym.php vb.) erişmek için döngü
     while pages_to_visit:
-        page = pages_to_visit.pop()
-        url = urljoin(BASE_URL, page)
+        page_path = pages_to_visit.pop() # örn: data.php veya englandm.php
+        url = urljoin(BASE_URL, page_path)
         
-        # URL'yi sadece yol olarak kaydet
-        page_key = url.replace(BASE_URL, '').split('?')[0].split('#')[0]
-
-        if page_key in visited_pages:
+        if page_path in visited_pages:
             continue
-        visited_pages.add(page_key)
+        visited_pages.add(page_path)
         
         print(f"Checking page: {url}")
         
@@ -85,13 +78,21 @@ def get_all_csv_links():
                         # CSV linklerini indirme listesine ekle
                         raw_links.append(full_link)
                     
+                    # *** SADECE FUTBOL VERİ SAYFALARINI TAKİP ETME FİLTRESİ ***
                     elif full_link.lower().endswith(".php"):
-                        # PHP ile biten alt sayfalara git (englandm.php, italym.php, vb.)
-                        relative_link = full_link.replace(BASE_URL, '').split('?')[0].split('#')[0]
-                        if relative_link not in visited_pages:
-                            pages_to_visit.add(relative_link)
+                        parsed_url = urlparse(full_link)
+                        # Dosya adını alır (örn: 'englandm.php')
+                        page_file_name = os.path.basename(parsed_url.path)
+                        
+                        # Eğer dosya yolu sadece dosya adı içeriyorsa (yani alt dizin yoksa) VE
+                        # bilinen alakasız sayfalardan biri değilse:
+                        if parsed_url.path == f'/{page_file_name}' and \
+                           page_file_name not in visited_pages and \
+                           page_file_name not in ['index.php', 'notes.php', 'disclaimer.php', 'matches.php', 'matches_new_leagues.php']:
+                            
+                            pages_to_visit.add(page_file_name)
                 
-                break # Başarılı olduysa deneme döngüsünden çık
+                break
                 
             except Exception as e:
                 print(f"[WARNING] Attempt {attempt+1} failed for {url}: {e}")
@@ -105,7 +106,6 @@ def get_all_csv_links():
     sortable_links = []
     
     for url in unique_links:
-        # Linki analiz et (lig ve sezon anahtarını çıkar)
         league, season_key, _ = parse_league_and_season(url)
         sortable_links.append((league, season_key, url))
         
@@ -118,7 +118,6 @@ def get_all_csv_links():
 
 def download_csv(csv_url):
     """CSV dosyasını indirir, lig klasörüne kaydeder ve değişiklik olup olmadığını kontrol eder."""
-    # Orijinal adı korur (örn: E0_93.csv)
     league, season_key, filename = parse_league_and_season(csv_url) 
     
     # LİG KLASÖRÜ OLUŞTURMA: data/E0, data/SP1, vb.
@@ -129,12 +128,10 @@ def download_csv(csv_url):
 
     for attempt in range(MAX_RETRIES):
         try:
-            # İndirme işlemi
             response = requests.get(csv_url, timeout=60, headers=HEADERS)
-            response.raise_for_status() # HTTP hata kodu varsa istisna fırlatır
+            response.raise_for_status()
             new_content = response.content
 
-            # Dosya kontrolü (zaten varsa ve içerik aynıysa indirme yapmaz)
             if os.path.exists(filepath):
                 with open(filepath, "rb") as f:
                     old_content = f.read()
@@ -142,7 +139,6 @@ def download_csv(csv_url):
                     print(f"[UNCHANGED] {filepath}")
                     return
 
-            # Dosyayı kaydetme
             with open(filepath, "wb") as f:
                 f.write(new_content)
             print(f"[UPDATED] {filepath}")
@@ -157,12 +153,10 @@ def download_csv(csv_url):
 def main():
     print("Starting comprehensive CSV fetch process...")
     
-    # Tüm linkleri reküresif olarak çeker ve kronolojik sıraya koyar.
     csv_links = get_all_csv_links() 
     print(f"Found {len(csv_links)} unique CSV files to download.")
     print("Starting download in chronological order (Oldest Season -> Newest Season, by League)...")
     
-    # İndirme döngüsü
     for csv_url in csv_links: 
         download_csv(csv_url)
         
