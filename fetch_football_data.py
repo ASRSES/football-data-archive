@@ -16,6 +16,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 MAX_RETRIES = 3
 RETRY_DELAY = 5
 
+# İstenmeyen dosyalar listesi
+UNWANTED_FILES = ['example.csv', 'Latest_Results.csv']
+
 def parse_league_and_season(csv_url):
     """
     Dosya adından ligi ve sezon yılını (sıralama anahtarı olarak) çıkarır.
@@ -42,19 +45,16 @@ def parse_league_and_season(csv_url):
         elif len(season_str) == 4:
             season_key = int(season_str)
 
-    # Eğer lig kısaltması Regex desenine uymazsa (örn: example.csv), "misc" klasörüne gider.
     return league, season_key, filename
 
 def get_all_csv_links():
     """Tüm CSV linklerini çeker, lig ve sezona göre kronolojik olarak sıralar."""
     raw_links = []
-    # pages_to_visit'e başlangıç sayfasını ekle
     pages_to_visit = set(DATA_PAGES) 
     visited_pages = set()
     
-    # Tüm alt sayfalara (englandm.php, italym.php vb.) erişmek için döngü
     while pages_to_visit:
-        page_path = pages_to_visit.pop() # örn: data.php veya englandm.php
+        page_path = pages_to_visit.pop() 
         url = urljoin(BASE_URL, page_path)
         
         if page_path in visited_pages:
@@ -65,7 +65,6 @@ def get_all_csv_links():
         
         for attempt in range(MAX_RETRIES):
             try:
-                # Sayfayı çek
                 response = requests.get(url, timeout=30, headers=HEADERS)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.text, "html.parser")
@@ -74,18 +73,21 @@ def get_all_csv_links():
                     href = a["href"]
                     full_link = urljoin(url, href)
                     
+                    # *** YENİ DÜZELTME: İstenmeyen CSV dosyalarını filtrele ***
                     if full_link.lower().endswith(".csv"):
-                        # CSV linklerini indirme listesine ekle
-                        raw_links.append(full_link)
+                        filename = os.path.basename(full_link)
+                        
+                        if filename not in UNWANTED_FILES:
+                            raw_links.append(full_link)
+                        else:
+                            # Bu dosya indirilmeyeceği için sadece bilgilendirme yapılır
+                            print(f"[INFO] Skipping unwanted file link: {filename}")
                     
-                    # *** SADECE FUTBOL VERİ SAYFALARINI TAKİP ETME FİLTRESİ ***
+                    # Link takibi filtresi (Sadece kök dizin PHP dosyalarını takip eder)
                     elif full_link.lower().endswith(".php"):
                         parsed_url = urlparse(full_link)
-                        # Dosya adını alır (örn: 'englandm.php')
                         page_file_name = os.path.basename(parsed_url.path)
-                        
-                        # Eğer dosya yolu sadece dosya adı içeriyorsa (yani alt dizin yoksa) VE
-                        # bilinen alakasız sayfalardan biri değilse:
+
                         if parsed_url.path == f'/{page_file_name}' and \
                            page_file_name not in visited_pages and \
                            page_file_name not in ['index.php', 'notes.php', 'disclaimer.php', 'matches.php', 'matches_new_leagues.php']:
@@ -109,7 +111,6 @@ def get_all_csv_links():
         league, season_key, _ = parse_league_and_season(url)
         sortable_links.append((league, season_key, url))
         
-    # KRONOLOJİK SIRALAMA: 1. Lig kısaltmasına göre, 2. Sezon yılına göre (eskiden yeniye)
     sortable_links.sort(key=lambda x: (x[0], x[1]))
     
     sorted_links = [url for league, season_key, url in sortable_links]
