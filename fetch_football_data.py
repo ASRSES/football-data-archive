@@ -1,3 +1,4 @@
+
 # fetch_football_data.py
 import os
 import re
@@ -15,9 +16,8 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 MAX_RETRIES = 3
-RETRY_DELAY = 5  # saniye
+RETRY_DELAY = 5
 
-# --- BeautifulSoup ile CSV linklerini al ---
 def get_all_csv_links():
     links = []
     for page in DATA_PAGES:
@@ -33,14 +33,13 @@ def get_all_csv_links():
                 break
             except Exception as e:
                 print(f"[WARNING] Attempt {attempt+1} failed for {url}: {e}")
-                if attempt < MAX_RETRIES - 1:
-                    time.sleep(RETRY_DELAY)
-                else:
-                    print(f"[ERROR] Could not fetch page {url} with BeautifulSoup, fallback to Selenium")
+                if attempt == MAX_RETRIES - 1:
+                    print(f"[ERROR] BeautifulSoup failed, fallback to Selenium: {url}")
                     links += get_links_selenium(url)
+                else:
+                    time.sleep(RETRY_DELAY)
     return sorted(set(links))
 
-# --- Selenium fallback ---
 def get_links_selenium(url):
     links = []
     try:
@@ -50,7 +49,7 @@ def get_links_selenium(url):
         options.add_argument("--disable-dev-shm-usage")
         driver = webdriver.Chrome(options=options)
         driver.get(url)
-        time.sleep(3)  # Sayfanın yüklenmesini bekle
+        time.sleep(3)
         anchors = driver.find_elements("tag name", "a")
         for a in anchors:
             href = a.get_attribute("href")
@@ -61,19 +60,15 @@ def get_links_selenium(url):
         print(f"[ERROR] Selenium failed for {url}: {e}")
     return links
 
-# --- CSV dosyası adlandırma ve klasörleme ---
 def parse_league_and_season(csv_url):
     filename = os.path.basename(csv_url)
     match = re.match(r"([A-Z]+\d*)(?:_(\d{2,4}))?\.csv", filename)
+    league, season = ("misc", "current")
     if match:
         league = match.group(1)
         season = match.group(2) or "current"
-    else:
-        league = "misc"
-        season = "current"
     return league, season, filename
 
-# --- CSV indirme ---
 def download_csv(csv_url):
     league, season, filename = parse_league_and_season(csv_url)
     league_dir = os.path.join(DATA_DIR, league)
@@ -108,10 +103,8 @@ def main():
     print("Starting CSV fetch process...")
     csv_links = get_all_csv_links()
     print(f"Found {len(csv_links)} CSV files")
-
     for csv_url in csv_links:
         download_csv(csv_url)
-
     print("CSV fetch process completed.")
 
 if __name__ == "__main__":
