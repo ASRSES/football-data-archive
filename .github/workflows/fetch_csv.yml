@@ -1,9 +1,9 @@
 name: Fetch Football Data
 
 on:
-  # Manuel çalıştırmaya izin verir
+  # Manuel çalıştırmaya izin verir (Şimdi kullanmak için ideal)
   workflow_dispatch: 
-  # Otomatik çalıştırma zamanlaması (UTC saatinde Perşembe 03:00 ve Pazar 03:00)
+  # Otomatik çalıştırma zamanlaması (Perşembe ve Pazar 03:00 UTC)
   schedule:
     - cron: '0 3 * * 4' # Perşembe 03:00 UTC
     - cron: '0 3 * * 0' # Pazar 03:00 UTC
@@ -15,7 +15,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        # Commit at adımının çalışması için geçmişi al
         fetch-depth: 0 
         
     - name: Set up Python
@@ -25,8 +24,7 @@ jobs:
         
     - name: Install dependencies 
       run: |
-        # Sadece BeautifulSoup ve Requests gibi hafif bağımlılıkları kurar.
-        # Selenium ve tarayıcı bağımlılıkları artık yoktur.
+        # Sadece requests ve beautifulsoup4 kurulur. Selenium yoktur.
         pip install requests beautifulsoup4 
         
     - name: Run data fetching script
@@ -35,10 +33,7 @@ jobs:
     - name: Commit and Push if changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        # 'data/' klasörü altındaki tüm değişiklikleri kontrol et
         file_pattern: data/
         commit_message: "Güncel Futbol Verileri: Otomatik Güncelleme"
-        # Değişiklik yoksa push yapmaz
         skip_dirty_check: true 
-        # Yeni ve güncel dosyaları commit'e dahil et
         commit_options: '--allow-empty --no-verify'
