@@ -1,11 +1,10 @@
-
 name: Fetch Football CSV
 
 on:
   schedule:
-    - cron: '0 3 * * 4'  # Perşembe 03:00 GMT
-    - cron: '0 3 * * 0'  # Pazar 03:00 GMT
-  workflow_dispatch:  # manuel tetikleme
+    - cron: '0 3 * * 4'
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
 
 jobs:
   fetch-csv:
@@ -28,8 +27,6 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Run fetch script
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           echo "Starting CSV fetch..."
           python fetch_football_data.py || echo "Script failed, check logs!"
