@@ -1,4 +1,3 @@
-
 # fetch_football_data.py
 import os
 import re
