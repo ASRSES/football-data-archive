@@ -7,10 +7,11 @@ from urllib.parse import urljoin, urlparse
 
 # Sabitler (Ayarlar)
 BASE_URL = "https://www.football-data.co.uk/"
-# Sadece ana dizin sayfasından başlayacağız
-DATA_PAGES = ["data.php"]
+
+# BAŞLANGIÇ SAYFALARI: data.php ve diğer ana veri sayfalarını dahil ederek tüm ligleri yakalamayı sağlar.
+DATA_PAGES = ["data.php", "matches.php", "matches_new_leagues.php"]
 DATA_DIR = "data"
-os.makedirs(DATA_DIR, exist_ok=True) # Ana veri klasörünü oluştur
+os.makedirs(DATA_DIR, exist_ok=True) 
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"}
 MAX_RETRIES = 3
@@ -24,6 +25,7 @@ def parse_league_and_season(csv_url):
     Dosya adından ligi ve sezon yılını (sıralama anahtarı olarak) çıkarır.
     """
     filename = os.path.basename(csv_url)
+    # Lig kodunu ve opsiyonel sezon yılını (2 veya 4 hane) eşleştir
     match = re.match(r"([A-Z]+\d*)(?:_(\d{2,4}))?\.csv", filename)
     league, season_str = ("misc", None)
     
@@ -36,6 +38,7 @@ def parse_league_and_season(csv_url):
     if season_str:
         if len(season_str) == 2:
             season_int = int(season_str)
+            # 93 ve sonrası 1900'ler, 93'ten küçükler 2000'ler varsayılır
             if season_int >= 93:
                 prefix = '19'
             else:
@@ -50,6 +53,7 @@ def parse_league_and_season(csv_url):
 def get_all_csv_links():
     """Tüm CSV linklerini çeker, lig ve sezona göre kronolojik olarak sıralar."""
     raw_links = []
+    # pages_to_visit'i DATA_PAGES'daki tüm sayfalarla başlat
     pages_to_visit = set(DATA_PAGES) 
     visited_pages = set()
     
@@ -73,27 +77,28 @@ def get_all_csv_links():
                     href = a["href"]
                     full_link = urljoin(url, href)
                     
-                    # *** YENİ DÜZELTME: İstenmeyen CSV dosyalarını filtrele ***
+                    # 1. CSV dosyalarını topla (Veri çekilecek dosyalar)
                     if full_link.lower().endswith(".csv"):
                         filename = os.path.basename(full_link)
                         
                         if filename not in UNWANTED_FILES:
                             raw_links.append(full_link)
                         else:
-                            # Bu dosya indirilmeyeceği için sadece bilgilendirme yapılır
                             print(f"[INFO] Skipping unwanted file link: {filename}")
                     
-                    # Link takibi filtresi (Sadece kök dizin PHP dosyalarını takip eder)
+                    # 2. PHP Link takibini yap (Eksik veriyi çözen kritik kısım)
                     elif full_link.lower().endswith(".php"):
                         parsed_url = urlparse(full_link)
                         page_file_name = os.path.basename(parsed_url.path)
 
+                        # Sadece kök dizinde bulunan ve genel olarak veri içermeyen (navigasyonel) sayfalar olmayanları takip et.
+                        # Bu filtre, sizin listelediğiniz TÜM LİG sayfalarını (england.php, germany.php vb.) yakalar.
                         if parsed_url.path == f'/{page_file_name}' and \
                            page_file_name not in visited_pages and \
-                           page_file_name not in ['index.php', 'notes.php', 'disclaimer.php', 'matches.php', 'matches_new_leagues.php']:
+                           page_file_name not in ['index.php', 'notes.php', 'disclaimer.php', 'help.php', 'contact.php']: 
                             
                             pages_to_visit.add(page_file_name)
-                
+                            
                 break
                 
             except Exception as e:
@@ -133,6 +138,7 @@ def download_csv(csv_url):
             response.raise_for_status()
             new_content = response.content
 
+            # Dosya var ve içerik değişmemişse atla
             if os.path.exists(filepath):
                 with open(filepath, "rb") as f:
                     old_content = f.read()
@@ -140,6 +146,7 @@ def download_csv(csv_url):
                     print(f"[UNCHANGED] {filepath}")
                     return
 
+            # Dosyayı içeriği olduğu gibi yazar (hiçbir sütun atılmaz!)
             with open(filepath, "wb") as f:
                 f.write(new_content)
             print(f"[UPDATED] {filepath}")
