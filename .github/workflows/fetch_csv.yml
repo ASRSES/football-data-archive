@@ -1,9 +1,9 @@
 name: Fetch Football Data
 
 on:
-  # Manuel çalıştırmaya izin verir (Şimdi kullanmak için ideal)
+  # Kullanıcının, GitHub arayüzünden manuel çalıştırmasına izin verir
   workflow_dispatch: 
-  # Otomatik çalıştırma zamanlaması (Perşembe ve Pazar 03:00 UTC)
+  # Otomatik çalıştırma zamanlaması: Her Perşembe ve Pazar 03:00 UTC
   schedule:
     - cron: '0 3 * * 4' # Perşembe 03:00 UTC
     - cron: '0 3 * * 0' # Pazar 03:00 UTC
@@ -11,10 +11,17 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    
+    # 🚨 KRİTİK DÜZELTME: Bot'a depoya yazma izni verir. 
+    # Bu, "Permission denied" (403) hatasını çözmek için gereklidir.
+    permissions:
+      contents: write 
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
+        # Commit at adımının çalışması için geçmişi alır
         fetch-depth: 0 
         
     - name: Set up Python
@@ -24,16 +31,19 @@ jobs:
         
     - name: Install dependencies 
       run: |
-        # Sadece requests ve beautifulsoup4 kurulur. Selenium yoktur.
+        # Gerekli kütüphaneleri kurar.
         pip install requests beautifulsoup4 
         
     - name: Run data fetching script
+      # En son revize edilmiş Python script'ini çalıştırır.
       run: python fetch_football_data.py
       
     - name: Commit and Push if changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
+        # Sadece 'data/' klasöründeki değişiklikleri commit et
         file_pattern: data/
         commit_message: "Güncel Futbol Verileri: Otomatik Güncelleme"
+        # Değişiklik yoksa push yapma
         skip_dirty_check: true 
         commit_options: '--allow-empty --no-verify'
