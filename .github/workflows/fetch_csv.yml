@@ -31,7 +31,7 @@ jobs:
     - name: Install dependencies 
       run: |
         # Gerekli kütüphaneleri kurar. Pandas, sütun standardizasyonu için zorunludur.
-        pip install requests beautifulsoup4 pandas # <-- PANDAS GÜNCELLEMESİ
+        pip install requests beautifulsoup4 pandas # <-- PANDAS BURAYA EKLENMİŞTİR
         
     - name: Run data fetching script
       # En son revize edilmiş Python script'ini çalıştırır.
