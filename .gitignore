@@ -1,0 +1,15 @@
+# Python Sanal Ortamları
+venv/
+.venv/
+
+# Derlenmiş Python dosyaları (gereksiz cache)
+__pycache__/
+*.pyc
+
+# İşletim Sistemi ve IDE dosyaları
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# NOT: 'data/' klasörü Yoksayılmamalıdır! Verilerinizin yüklenmesi için gereklidir.
