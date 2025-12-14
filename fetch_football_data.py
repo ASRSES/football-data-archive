@@ -8,9 +8,9 @@ from urllib.parse import urljoin, urlparse
 # Sabitler (Ayarlar)
 BASE_URL = "https://www.football-data.co.uk/"
 
-# LİNK KEŞFİ İÇİN BAŞLANGIÇ SAYFALARI (Tüm ana lig ve veri sayfaları)
+# LİNK KEŞFİ İÇİN GENİŞLETİLMİŞ BAŞLANGIÇ SAYFALARI (Tüm ligler ve veri noktaları)
 DATA_PAGES = [
-    "data.php", "matches.php", "matches_new_leagues.php",
+    "data.php", "matches.php", "matches_new_leagues.php", "download.php",
     "englandm.php", "scotlandm.php", "germanym.php", "italym.php", "spainm.php", 
     "francem.php", "netherlandsm.php", "belgiumm.php", "portugalm.php", 
     "turkeym.php", "greecem.php", "argentina.php", "austria.php", 
@@ -27,6 +27,8 @@ MAX_RETRIES = 3
 RETRY_DELAY = 5
 UNWANTED_FILES = ['example.csv', 'Latest_Results.csv']
 
+
+# --- KRONOLOJİK SIRALAMA MANTIĞI (Doğruluğu Kanıtlanmış) ---
 def parse_league_and_season(csv_url):
     """URL'den lig kodunu (E0) ve klasör yolundan sezonu (9394/1415/2526) çıkarır."""
     parsed_url = urlparse(csv_url)
@@ -34,26 +36,25 @@ def parse_league_and_season(csv_url):
     
     filename = os.path.basename(csv_url).upper()
     league = "MISC"
-    season_key = 2099 # Varsayılan en yeni (E0.csv gibi)
+    season_key = 2099 
 
-    # 1. Lig Adını Çıkarma (Örn: E0, I1, T1)
     league_name_match = re.match(r"([A-Z]+\d*)\.CSV", filename)
     if league_name_match:
         league = league_name_match.group(1)
 
-    # 2. Sezon Anahtarını Çıkarma (9394, 1415, 2526 gibi klasörlerden)
     for segment in reversed(path_segments):
-        if re.match(r"^\d{4}$", segment): # Dört haneli klasör (9394, 1415)
+        # 4 haneli sezon klasörünü yakala (9394, 1415, 2526)
+        if re.match(r"^\d{4}$", segment): 
             year_prefix = segment[:2] 
             season_int = int(year_prefix)
             
-            # Yıl öneki 90-99 ise 19xx, 00-89 ise 20xx
             if season_int >= 90:
                 season_key = int('19' + year_prefix) 
             else:
                 season_key = int('20' + year_prefix) 
             break
-        elif re.match(r"^\d{2}$", segment): # İki haneli sezon formatı (E0_99.csv gibi)
+        # 2 haneli sezon dosyasını yakala (E0_99.csv gibi)
+        elif re.match(r"^\d{2}$", segment) and segment.upper() in filename:
             season_int = int(segment)
             if season_int >= 90:
                 season_key = int('19' + segment)
@@ -61,56 +62,58 @@ def parse_league_and_season(csv_url):
                 season_key = int('20' + segment)
             break
     
-    # E0.CSV gibi dosyalarda (mevcut sezon), sezon klasörü bulunamadıysa en yeni olarak işaretle
-    if filename == f"{league}.CSV" and season_key > 2090: # Sadece güncel sezon dosyası ise 2099 yap
+    # E0.CSV gibi dosyalarda (sezon bilgisi içermeyen en yeni dosyalar)
+    if filename == f"{league}.CSV" and season_key > 2090:
         season_key = 2099 
         
     return league, season_key, os.path.basename(csv_url)
 
+
+# --- LİNK KEŞFİ VE SIRALAMA MANTIĞI (NİHAİ SÜRÜM) ---
 def get_all_csv_links():
-    """Tüm CSV linklerini çeker ve kronolojik olarak sıralar."""
+    """
+    Tüm CSV linklerini, tüm başlangıç sayfalarını ziyaret ederek ve 
+    HTML metni içinde REGEX kullanarak çeker (Agresif Link Keşfi).
+    """
     raw_links = []
-    pages_to_visit = set(DATA_PAGES) 
-    visited_pages = set()
+    csv_regex = re.compile(r'(mmz4281/[^/]+/[A-Z]\d*\.csv)', re.IGNORECASE)
     
-    while pages_to_visit:
-        page_path = pages_to_visit.pop() 
+    for page_path in DATA_PAGES:
         url = urljoin(BASE_URL, page_path)
-        if page_path in visited_pages: continue
-        visited_pages.add(page_path)
-        
-        # print(f"Checking page: {url}")
         
         for attempt in range(MAX_RETRIES):
             try:
                 time.sleep(0.5) 
                 response = requests.get(url, timeout=30, headers=HEADERS)
                 response.raise_for_status()
-                soup = BeautifulSoup(response.text, "html.parser")
-                
+                html_content = response.text 
+
+                # 1. YÖNTEM: BeautifulSoup ile tüm <a> etiketlerini kontrol et (standart yol)
+                soup = BeautifulSoup(html_content, "html.parser")
                 for a in soup.find_all("a", href=True):
                     href = a["href"]
-                    full_link = urljoin(url, href) 
-                    
+                    full_link = urljoin(url, href)
                     if full_link.lower().endswith(".csv"):
+                        # İstenmeyen dosyaları atla
                         filename = os.path.basename(full_link)
                         if filename.upper() not in [u.upper() for u in UNWANTED_FILES]:
                             raw_links.append(full_link)
-                        # else: # Gereksiz logu kaldırdık
-                            # print(f"[INFO] Skipping unwanted file link: {filename}")
-                    
-                    elif full_link.lower().endswith(".php"):
-                        parsed_url = urlparse(full_link)
-                        page_file_name = os.path.basename(parsed_url.path)
-                        if page_file_name and page_file_name not in visited_pages and page_file_name not in ['index.php', 'notes.php', 'disclaimer.php', 'help.php', 'contact.php', 'download.php']: 
-                            pages_to_visit.add(page_file_name)
-                            
-                break
+
+                # 2. YÖNTEM: REGEX ile HTML metnindeki tüm mmz4281/.../*.csv kalıbını ara (AGRESİF YOL)
+                for match in csv_regex.finditer(html_content):
+                    relative_link = match.group(0)
+                    full_link = urljoin(BASE_URL, relative_link)
+                    raw_links.append(full_link)
+                
+                break 
                 
             except Exception as e:
-                print(f"[ERROR] Failed to crawl page after {MAX_RETRIES} retries: {url}. Error: {e}")
-                break
+                if attempt == MAX_RETRIES - 1:
+                    print(f"[ERROR] Failed to fetch links from {url} after {MAX_RETRIES} retries. Error: {e}")
+                else:
+                    time.sleep(RETRY_DELAY)
 
+    # Linkleri benzersiz yap ve sıralama anahtarları ile eşleştir
     unique_links = sorted(list(set(raw_links))) 
     sortable_links = []
     
@@ -118,12 +121,13 @@ def get_all_csv_links():
         league, season_key, original_filename = parse_league_and_season(url)
         sortable_links.append((league, season_key, url))
         
-    # KRİTİK SIRALAMA: Önce Lig Kodu (Alfabetik), sonra Sezon Yılı (Eskiden Yeniye)
+    # KRİTİK SIRALAMA: Önce Lig Kodu (Alfabetik), sonra Sezon Yılı (En eskiden en yeniye)
     sortable_links.sort(key=lambda x: (x[0], x[1]))
     sorted_links = [url for league, season_key, url in sortable_links]
     
     return sorted_links
 
+# --- İNDİRME VE MAIN FONKSİYONLARI (Değişmedi) ---
 def download_csv(csv_url):
     """CSV dosyasını indirir ve orijinal içeriği değiştirilmeden kaydeder."""
     league, season_key, filename = parse_league_and_season(csv_url) 
@@ -154,10 +158,18 @@ def download_csv(csv_url):
                 print(f"[ERROR] Could not download CSV: {csv_url}")
 
 def main():
-    print("Starting fast, RAW content CSV fetch process (FINAL VERSION)...")
+    print("Starting fast, RAW content CSV fetch process (FINAL VERSION: AGGRESSIVE LINK DISCOVERY)...")
     
     csv_links = get_all_csv_links() 
     print(f"Found {len(csv_links)} unique CSV files to download.")
+    
+    if len(csv_links) > 0:
+        print("\n--- Download Order Check (First 10) ---")
+        for i, url in enumerate(csv_links[:10]):
+             league, season_key, filename = parse_league_and_season(url)
+             print(f"[{i+1}] {league} (Year: {season_key}): {filename}")
+        print("--------------------------------------\n")
+        
     print("Starting download in chronological order (Raw Content)...")
     
     for i, csv_url in enumerate(csv_links): 
