@@ -4,13 +4,13 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
-import pandas as pd # <-- YENİ: Veri standardizasyonu için Pandas eklendi
+import pandas as pd # KRİTİK: Veri standardizasyonu için Pandas eklendi
 from io import StringIO
 
 # Sabitler (Ayarlar)
 BASE_URL = "https://www.football-data.co.uk/"
 
-# Tüm lig sayfaları
+# NİHAİ VE EKSİKSİZ DATA_PAGES: Tüm lig sayfaları dahil edildi
 DATA_PAGES = [
     "data.php", "matches.php", "matches_new_leagues.php",
     # Ana Ligler
@@ -32,12 +32,11 @@ MAX_RETRIES = 3
 RETRY_DELAY = 5
 UNWANTED_FILES = ['example.csv', 'Latest_Results.csv']
 
-# Evrensel (Universal) başlıkları tutacak global set. 
-# Bu set, tüm indirilen dosyaların başlıklarını içerecektir.
+# Evrensel (Universal) başlıkları tutacak global set.
 ALL_COLUMNS = set()
 
 def parse_league_and_season(csv_url):
-    # ... (Bu fonksiyon kronolojik sıralama için değişmeden kalmıştır)
+    """Dosya adından ligi ve sezon yılını (sıralama anahtarı) çıkarır."""
     filename = os.path.basename(csv_url)
     match = re.match(r"([A-Z]+\d*)(?:_(\d{2,4}))?\.csv", filename)
     league, season_str = ("misc", None)
@@ -49,18 +48,18 @@ def parse_league_and_season(csv_url):
     if season_str:
         if len(season_str) == 2:
             season_int = int(season_str)
+            # 93 ve sonrası 1900'ler, 93'ten küçükler 2000'ler varsayılır
             if season_int >= 93:
                 prefix = '19'
             else:
                 prefix = '20'
             season_key = int(prefix + season_str)
-            
         elif len(season_str) == 4:
             season_key = int(season_str)
     return league, season_key, filename
 
 def get_all_csv_links():
-    # ... (Bu fonksiyon link toplama ve sıralama için değişmeden kalmıştır)
+    """Tüm CSV linklerini çeker, lig ve sezona göre kronolojik olarak sıralar."""
     raw_links = []
     pages_to_visit = set(DATA_PAGES) 
     visited_pages = set()
@@ -84,6 +83,7 @@ def get_all_csv_links():
                     href = a["href"]
                     full_link = urljoin(url, href)
                     
+                    # SADECE CSV dosyalarını topla
                     if full_link.lower().endswith(".csv"):
                         filename = os.path.basename(full_link)
                         if filename not in UNWANTED_FILES:
@@ -91,6 +91,7 @@ def get_all_csv_links():
                         else:
                             print(f"[INFO] Skipping unwanted file link: {filename}")
                     
+                    # PHP Link takibini yap
                     elif full_link.lower().endswith(".php"):
                         parsed_url = urlparse(full_link)
                         page_file_name = os.path.basename(parsed_url.path)
@@ -113,6 +114,7 @@ def get_all_csv_links():
         league, season_key, _ = parse_league_and_season(url)
         sortable_links.append((league, season_key, url))
         
+    # KRİTİK SIRALAMA
     sortable_links.sort(key=lambda x: (x[0], x[1]))
     sorted_links = [url for league, season_key, url in sortable_links]
     
@@ -134,39 +136,29 @@ def standardize_and_save_csv(csv_url):
             response.raise_for_status()
             
             # --- YENİ BÖLÜM 1: Veri Yükleme ve Başlık Toplama ---
-            # İndirilen veriyi geçici olarak DataFrame'e yükle
-            # Tüm sütunların alınması için 'low_memory=False' ve 'on_bad_lines="skip"' kullanılır
             try:
+                # İndirilen veriyi Pandas ile oku
+                # ISO-8859-1: Web sitesindeki yaygın kodlama
+                # on_bad_lines="skip": Kötü formatlı satırları atla
                 df = pd.read_csv(StringIO(response.text), low_memory=False, on_bad_lines="skip", encoding='ISO-8859-1')
             except pd.errors.ParserError as e:
                  print(f"[WARNING] CSV parsing error for {filename}: {e}. Skipping file.")
-                 return # Hatalı dosyayı atla
+                 return None 
             
             # Başlıkları küresel sete ekle
             global ALL_COLUMNS
             ALL_COLUMNS.update(df.columns.tolist())
             
-            # --- YENİ BÖLÜM 2: Standardizasyon ve Kayıt ---
-            
-            # DataFrame'i evrensel başlıklarla yeniden oluştur (eksik sütunlar NaN olur)
-            # Not: Bu adım, dosyayı kaydederken yapılacak, burada sadece ALL_COLUMNS'ı dolduruyoruz.
-            
-            # Tüm sütunlar (ALL_COLUMNS) doldurulduktan sonra, main fonksiyonunda yeniden işlem yapacağız.
-            # Şimdilik burası sadece indiriyor ve başlıkları topluyor.
-            
-            # Burası sadece önceden var olan dosyaları kontrol etmeli ve tekrar indirmemeli
-            # Ancak sütun yapısı değiştiği için bu kontrolü şimdilik kaldırıp her dosyayı yeniden işleyeceğiz.
-            
             return response.content # Başarıyla indirilen ham içeriği döndür
 
         except Exception as e:
-            print(f"[WARNING] Attempt {attempt+1} failed for {csv_url}: {e}")
+            # Hata yönetimi (loglama ve tekrar deneme)
             if attempt < MAX_RETRIES - 1:
                 time.sleep(RETRY_DELAY)
             else:
-                print(f"[ERROR] Could not download CSV: {csv_url}")
-                return None # İndirme başarısız oldu
-    return None # İndirme başarısız oldu
+                print(f"[ERROR] Could not download CSV after {MAX_RETRIES} attempts: {csv_url}")
+                return None 
+    return None 
 
 def main():
     print("Starting comprehensive CSV fetch and standardization process...")
@@ -178,9 +170,8 @@ def main():
     print("\n--- PHASE 1: Collecting all unique column names (Headers) ---")
     file_contents = {}
     
-    # Bu aşamada her dosyayı indirip sadece başlıklarını çıkarıyoruz
     for i, csv_url in enumerate(csv_links):
-        content = standardize_and_save_csv(csv_url) # Aslında içeriği döndüren fonksiyon
+        content = standardize_and_save_csv(csv_url) 
         if content is not None:
             file_contents[csv_url] = content
             print(f"[{i+1}/{len(csv_links)}] Header collected for {os.path.basename(csv_url)}")
@@ -189,10 +180,9 @@ def main():
         print("[FATAL ERROR] No columns found. Exiting.")
         return
 
-    # Tüm liglerdeki tüm sezonlarda bulunan evrensel sütunlar (alfabetik sıralı)
     universal_columns = sorted(list(ALL_COLUMNS))
     print(f"\n--- Universal Header Found ({len(universal_columns)} total columns) ---")
-    print(universal_columns[:5], "...") # İlk 5 sütunu göster
+    # print(universal_columns[:5], "...") # Debug için gösterilebilir
 
     # 2. Aşama: Tüm dosyaları standardize et ve kaydet
     print("\n--- PHASE 2: Standardizing and Saving Files ---")
@@ -206,11 +196,11 @@ def main():
             continue
 
         try:
-            # Ham içeriği tekrar oku
+            # Ham içeriği tekrar oku ve DataFrame'e yükle
             raw_content = file_contents[csv_url]
             df = pd.read_csv(StringIO(raw_content.decode('ISO-8859-1')), low_memory=False, on_bad_lines="skip", encoding='ISO-8859-1')
 
-            # Standartlaştırma: Eksik sütunları ekle (NaN ile doldurulur, CSV'de boş gözükür)
+            # Standardlaştırma: Eksik sütunları ekle (NaN ile doldurulur)
             for col in universal_columns:
                 if col not in df.columns:
                     df[col] = pd.NA
@@ -218,20 +208,14 @@ def main():
             # Sütunları evrensel sıraya göre yeniden düzenle
             df = df[universal_columns]
             
-            # Son içeriği CSV formatına dönüştür
-            # index=False: Satır numaralarını yazma
-            # header=True: Sütun başlıklarını yaz
-            # encoding='utf-8': Unicode karakter sorunlarını önler
+            # Yeni içeriği CSV formatına dönüştür (UTF-8 kodlama ile)
             new_csv_content = df.to_csv(index=False, header=True, encoding='utf-8')
             new_content_bytes = new_csv_content.encode('utf-8')
             
-            # Değişiklik Kontrolü ve Kayıt
+            # Değişiklik Kontrolü
             if os.path.exists(filepath):
-                # Mevcut dosyayı UTF-8 olarak okuyup karşılaştır
                 with open(filepath, "r", encoding='utf-8') as f:
                     old_csv_content = f.read()
-                
-                # Karşılaştırma için ikisini de byte'a dönüştür (daha güvenli)
                 old_content_bytes = old_csv_content.encode('utf-8')
 
                 if old_content_bytes == new_content_bytes:
@@ -245,7 +229,6 @@ def main():
 
         except Exception as e:
             print(f"[ERROR] Could not standardize/save {filepath}: {e}")
-
 
     print("\nCSV fetch and standardization process completed.")
 
