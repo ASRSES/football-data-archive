@@ -12,7 +12,6 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
-    # KRİTİK: Bot'a depoya yazma izni verir
     permissions:
       contents: write 
 
@@ -20,7 +19,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        # Commit at adımının çalışması için geçmişi alır
         fetch-depth: 0 
         
     - name: Set up Python
@@ -30,16 +28,14 @@ jobs:
         
     - name: Install dependencies 
       run: |
-        # Gerekli kütüphaneleri kurar. Pandas, sütun standardizasyonu için zorunludur.
-        pip install requests beautifulsoup4 pandas # <-- PANDAS BURAYA EKLENMİŞTİR
+        # Sadece temel kütüphaneleri kurar (requests, beautifulsoup4)
+        pip install requests beautifulsoup4 # <-- PANDAS KALDIRILDI
         
     - name: Run data fetching script
-      # En son revize edilmiş Python script'ini çalıştırır.
       run: python fetch_football_data.py
       
     - name: Commit and Push if changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Auto: Update football data (Standardized headers)"
-        # Sadece data klasöründeki değişiklikleri commit et.
+        commit_message: "Auto: Update football data (Raw/Fast Fetch)"
         file_pattern: 'data/*.csv data/*/*.csv'
