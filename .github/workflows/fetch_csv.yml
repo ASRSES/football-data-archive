@@ -12,8 +12,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
-    # 🚨 KRİTİK DÜZELTME: Bot'a depoya yazma izni verir. 
-    # Bu, "Permission denied" (403) hatasını çözmek için gereklidir.
+    # KRİTİK: Bot'a depoya yazma izni verir
     permissions:
       contents: write 
 
@@ -31,8 +30,8 @@ jobs:
         
     - name: Install dependencies 
       run: |
-        # Gerekli kütüphaneleri kurar.
-        pip install requests beautifulsoup4 
+        # Gerekli kütüphaneleri kurar. Pandas, sütun standardizasyonu için zorunludur.
+        pip install requests beautifulsoup4 pandas # <-- PANDAS GÜNCELLEMESİ
         
     - name: Run data fetching script
       # En son revize edilmiş Python script'ini çalıştırır.
@@ -41,9 +40,6 @@ jobs:
     - name: Commit and Push if changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        # Sadece 'data/' klasöründeki değişiklikleri commit et
-        file_pattern: data/
-        commit_message: "Güncel Futbol Verileri: Otomatik Güncelleme"
-        # Değişiklik yoksa push yapma
-        skip_dirty_check: true 
-        commit_options: '--allow-empty --no-verify'
+        commit_message: "Auto: Update football data (Standardized headers)"
+        # Sadece data klasöründeki değişiklikleri commit et.
+        file_pattern: 'data/*.csv data/*/*.csv'
