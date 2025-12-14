@@ -5,4 +5,5 @@ __pycache__/
 # Klasörler
 data/
 !data/
+!data/*
 !data/*/*.csv
