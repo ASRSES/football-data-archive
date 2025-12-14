@@ -28,8 +28,8 @@ jobs:
         
     - name: Install dependencies 
       run: |
-        # Sadece temel kütüphaneleri kurar (requests, beautifulsoup4)
-        pip install requests beautifulsoup4 # <-- PANDAS KALDIRILDI
+        # Sadece requests ve beautifulsoup4 kurulur (Hız için pandas kaldırıldı)
+        pip install requests beautifulsoup4 
         
     - name: Run data fetching script
       run: python fetch_football_data.py
@@ -37,5 +37,5 @@ jobs:
     - name: Commit and Push if changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Auto: Update football data (Raw/Fast Fetch)"
+        commit_message: "Auto: Update football data (Raw/Final Chronological Fetch)"
         file_pattern: 'data/*.csv data/*/*.csv'
