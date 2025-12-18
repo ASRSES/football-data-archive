@@ -1,27 +1,6 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Argentina,Torneo De La Liga Profesional,14/12/2025,00:00,Racing Club,Estudiantes L.P.,2.54,2.92,3.2,2.5,3,3.4,2.42,2.91,3.17,2.54,2.88,3.25,2.45,2.75,3.4
-Austria,Bundesliga,13/12/2025,16:00,Grazer AK,LASK,,,,3.9,3.35,2,3.72,3.26,1.95,3.95,3.35,2.04,3.9,3.25,1.96
-Austria,Bundesliga,13/12/2025,16:00,Hartberg,Tirol,,,,2.55,3.4,2.85,2.43,3.23,2.72,2.6,3.25,2.8,2.4,3.4,2.7
-Austria,Bundesliga,13/12/2025,16:00,Ried,Altach,,,,2.3,3.2,3.5,2.21,3.1,3.2,2.26,3.15,3.5,2.2,3.2,3.4
-Austria,Bundesliga,14/12/2025,13:30,BW Linz,SK Rapid,,,,3.5,3.33,2.23,3.28,3.23,2.1,3.55,3.3,2.1,3.5,3.3,2.05
-Austria,Bundesliga,14/12/2025,13:30,Salzburg,Wolfsberger AC,,,,1.87,3.8,4,1.82,3.66,3.78,1.85,3.85,3.9,1.79,3.8,3.9
-Austria,Bundesliga,14/12/2025,16:00,Austria Vienna,Sturm Graz,,,,2.6,3.4,2.83,2.44,3.26,2.69,2.5,3.5,2.82,2.4,3.4,2.7
-Mexico,Liga MX,12/12/2025,02:00,Tigres UANL,Toluca,,,,2.15,3.4,3.66,2.07,3.25,3.37,2.2,3.4,3.7,2.1,3.2,3.6
-Mexico,Liga MX,15/12/2025,01:00,Toluca,Tigres UANL,,,,2.06,3.5,3.3,2.03,3.43,3.23,,,,,,
-Poland,Ekstraklasa,14/12/2025,13:45,Rakow,Zaglebie,1.47,4.34,6.59,1.62,4,5.8,1.56,3.76,5.48,1.57,3.9,5.3,1.57,3.6,5.75
-Poland,Ekstraklasa,14/12/2025,16:30,Motor Lublin,Jagiellonia,3.01,3.41,2.33,2.65,3.8,2.5,2.55,3.55,2.41,2.6,3.65,2.5,2.55,3.5,2.45
-Poland,Ekstraklasa,14/12/2025,19:15,Legia,Piast Gliwice,,,,1.88,3.5,4.33,1.84,3.34,4.01,1.92,2.96,2.92,1.8,3.25,4.33
-Romania,Superliga,12/12/2025,18:30,CFR Cluj,Csikszereda M. Ciuc,,,,1.3,5.5,10.5,1.28,5.08,8.97,1.31,5.5,10.5,1.3,5.5,8
-Romania,Superliga,13/12/2025,15:00,FC Arges,FC Botosani,,,,2.45,3,3.4,2.32,2.9,3.16,2.34,2.96,3.4,2.3,3,3.4
-Romania,Superliga,13/12/2025,18:30,FC Rapid Bucuresti,Otelul,,,,2.05,3.4,3.85,2,3.19,3.62,2.06,3.2,3.85,2.05,3.4,3.7
-Romania,Superliga,14/12/2025,13:30,Petrolul,U. Cluj,,,,3.25,3,2.55,2.99,2.9,2.42,3.05,2.9,2.54,3,3,2.55
-Romania,Superliga,14/12/2025,15:45,Din. Bucuresti,Metaloglobus Bucharest,,,,1.25,6.1,12.5,1.22,5.59,11.16,1.24,6,14,1.25,6,10
-Romania,Superliga,14/12/2025,18:30,FC Hermannstadt,Univ. Craiova,,,,4.6,3.75,1.83,4.27,3.48,1.75,3.6,2.78,1.72,4.33,3.75,1.75
-Romania,Superliga,15/12/2025,15:30,Farul Constanta,UTA Arad,,,,2.02,3.6,3.8,1.94,3.37,3.56,1.92,3.05,3.9,1.91,3.6,3.75
-Romania,Superliga,15/12/2025,18:30,Unirea Slobozia,FCSB,,,,6,3.8,1.67,5.08,3.67,1.63,5.4,3.2,1.66,5,3.75,1.67
-Switzerland,Super League,13/12/2025,17:00,Sion,Grasshoppers,,,,1.75,3.8,4.5,1.72,3.69,4.2,1.77,3.85,4.7,1.68,3.8,4.5
-Switzerland,Super League,13/12/2025,17:00,Zurich,Winterthur,,,,1.55,4.75,5.25,1.52,4.36,4.94,1.57,4.7,5.3,1.51,4.75,4.75
-Switzerland,Super League,13/12/2025,19:30,Thun,St. Gallen,,,,1.98,3.8,3.8,1.93,3.6,3.4,1.96,3.85,3.65,1.91,3.5,3.75
-Switzerland,Super League,14/12/2025,13:00,Young Boys,Luzern,,,,1.82,4.1,4.2,1.78,3.83,3.77,1.76,4.1,4,1.71,4.1,4
-Switzerland,Super League,14/12/2025,15:30,Basel,Lausanne,,,,1.67,4.5,4.33,1.63,4.21,4.18,1.72,4.1,4.1,1.61,4.33,4.33
-Switzerland,Super League,14/12/2025,15:30,Lugano,Servette,,,,2.25,3.5,3.1,2.14,3.4,3.04,2.26,3.55,3.1,2.15,3.5,3.05
+Switzerland,Super League,16/12/2025,19:30,St. Gallen,Sion,,,,2.37,3.7,2.95,2.27,3.45,2.81,2.44,3.75,3.05,2.25,3.6,2.85
+Switzerland,Super League,16/12/2025,19:30,Winterthur,Thun,,,,3.95,4.2,1.8,3.8,3.91,1.76,4.2,4.3,1.85,3.9,4.1,1.71
+Switzerland,Super League,17/12/2025,19:30,Luzern,Basel,,,,3.5,3.9,2,3.26,3.72,1.95,3.35,3.85,2.06,3.3,3.8,1.96
+Switzerland,Super League,17/12/2025,19:30,Young Boys,Grasshoppers,,,,1.58,4.75,5.4,1.53,4.34,4.84,1.62,4.8,5.4,1.51,4.5,5
+Switzerland,Super League,17/12/2025,19:30,Zurich,Lugano,,,,2.85,3.7,2.45,2.68,3.44,2.35,2.74,3.6,2.46,2.65,3.6,2.4
