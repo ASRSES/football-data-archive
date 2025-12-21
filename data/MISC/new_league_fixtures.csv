@@ -1,6 +1,15 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Switzerland,Super League,16/12/2025,19:30,St. Gallen,Sion,,,,2.37,3.7,2.95,2.27,3.45,2.81,2.44,3.75,3.05,2.25,3.6,2.85
-Switzerland,Super League,16/12/2025,19:30,Winterthur,Thun,,,,3.95,4.2,1.8,3.8,3.91,1.76,4.2,4.3,1.85,3.9,4.1,1.71
-Switzerland,Super League,17/12/2025,19:30,Luzern,Basel,,,,3.5,3.9,2,3.26,3.72,1.95,3.35,3.85,2.06,3.3,3.8,1.96
-Switzerland,Super League,17/12/2025,19:30,Young Boys,Grasshoppers,,,,1.58,4.75,5.4,1.53,4.34,4.84,1.62,4.8,5.4,1.51,4.5,5
-Switzerland,Super League,17/12/2025,19:30,Zurich,Lugano,,,,2.85,3.7,2.45,2.68,3.44,2.35,2.74,3.6,2.46,2.65,3.6,2.4
+Romania,Superliga,19/12/2025,18:00,FC Botosani,CFR Cluj,,,,2.63,3.25,3,2.48,3.1,2.71,2.7,3.2,2.98,2.4,3,2.63
+Romania,Superliga,20/12/2025,12:30,Metaloglobus Bucharest,Unirea Slobozia,,,,2.9,3.2,2.7,2.64,3.05,2.58,2.78,3.1,2.82,2.55,3.1,2.55
+Romania,Superliga,20/12/2025,15:00,Otelul,FC Arges,,,,2.38,3,3.5,2.22,2.95,3.27,2.26,3,3.7,2.15,2.9,3.25
+Romania,Superliga,20/12/2025,18:00,UTA Arad,Din. Bucuresti,,,,4.35,3.45,1.95,3.85,3.3,1.88,4.1,3.35,1.98,3.7,3.2,1.85
+Romania,Superliga,21/12/2025,12:00,FC Hermannstadt,Petrolul,,,,2.45,3.1,3.2,2.35,2.96,3.04,2.48,3.05,3.2,2.35,2.88,3
+Romania,Superliga,21/12/2025,14:30,U. Cluj,Farul Constanta,,,,2.1,3.6,3.5,2.04,3.26,3.35,2.08,3.25,3.55,2,3,3.5
+Romania,Superliga,21/12/2025,18:00,FCSB,FC Rapid Bucuresti,,,,2.06,3.5,3.75,1.98,3.23,3.56,2,3.35,3.85,1.95,3.1,3.5
+Romania,Superliga,22/12/2025,18:00,Univ. Craiova,Csikszereda M. Ciuc,,,,1.26,6,11,1.23,5.57,9.95,1.04,1.01,1.04,1.22,5.25,10
+Switzerland,Super League,20/12/2025,17:00,Sion,Winterthur,,,,1.52,4.75,6.4,1.47,4.32,5.59,1.43,4.8,5.3,1.42,4.5,6.25
+Switzerland,Super League,20/12/2025,17:00,Thun,Zurich,,,,1.98,3.8,4,1.91,3.63,3.48,1.91,3.95,3.85,1.86,3.8,3.6
+Switzerland,Super League,20/12/2025,19:30,Basel,Servette,,,,1.67,4.5,4.75,1.61,4.11,4.43,1.67,4.5,4.6,1.57,4,4.75
+Switzerland,Super League,21/12/2025,13:00,Lausanne,Luzern,,,,2.1,3.8,3.33,2.03,3.64,3.11,1.95,3.55,3,2.01,3.75,3.3
+Switzerland,Super League,21/12/2025,15:30,Grasshoppers,St. Gallen,,,,2.9,3.6,2.4,2.77,3.44,2.3,2.8,3.25,2.28,2.82,3.5,2.3
+Switzerland,Super League,21/12/2025,15:30,Lugano,Young Boys,,,,2.45,3.6,2.9,2.36,3.42,2.69,2.38,3.55,2.78,2.4,3.6,2.65
