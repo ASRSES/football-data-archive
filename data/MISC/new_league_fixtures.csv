@@ -1,10 +1,24 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Mexico,Liga MX,13/01/2026,23:00,Puebla,Mazatlan FC,,,,1.95,3.6,4.2,1.86,3.44,3.85,1.93,3.7,4.2,1.86,3.6,4
-Mexico,Liga MX,14/01/2026,01:00,Necaxa,Monterrey,,,,2.6,3.65,2.62,2.49,3.44,2.53,2.68,3.65,2.66,2.55,3.5,2.55
-Mexico,Liga MX,14/01/2026,01:06,Pachuca,Club Leon,,,,1.62,4.25,5.6,1.58,3.98,4.92,1.7,4.3,5,1.61,3.9,5.25
-Mexico,Liga MX,14/01/2026,03:10,Juarez,Guadalajara Chivas,,,,3.8,3.45,2.05,3.57,3.29,1.98,4,3.45,2.08,3.8,3.3,1.96
-Mexico,Liga MX,14/01/2026,23:00,Cruz Azul,Atlas,,,,1.38,5,8.5,1.33,4.79,7.72,1.39,5.2,8.4,1.37,4.5,8.5
-Mexico,Liga MX,15/01/2026,01:00,Queretaro,Club Tijuana,,,,2.7,3.4,2.66,2.59,3.26,2.52,2.68,3.3,2.68,2.57,3.3,2.57
-Mexico,Liga MX,15/01/2026,01:05,Club America,Atl. San Luis,,,,1.38,5.25,8.1,1.35,4.85,7.2,1.4,5,8.2,1.37,4.75,7
-Mexico,Liga MX,15/01/2026,03:06,Tigres UANL,UNAM Pumas,,,,1.61,4,6.25,1.57,3.72,5.44,1.62,3.8,6,1.57,3.7,6.25
-Mexico,Liga MX,15/01/2026,03:10,Toluca,Santos Laguna,,,,1.2,7.5,13,1.17,7.1,11.29,1.21,7.6,14,1.17,7.5,11
+Mexico,Liga MX,17/01/2026,03:00,Mazatlan FC,Monterrey,,,,4.75,4,1.78,4.38,3.7,1.7,5.1,4.2,1.73,4.75,3.9,1.66
+Mexico,Liga MX,17/01/2026,23:00,Necaxa,Atlas,,,,1.62,4.2,5.4,1.58,4,4.82,1.64,4,5.3,1.57,4.2,5
+Mexico,Liga MX,17/01/2026,23:07,Guadalajara Chivas,Queretaro,,,,1.36,5,10,1.33,4.61,8.51,1.36,5.1,10.5,1.3,4.75,10
+Mexico,Liga MX,18/01/2026,01:00,Tigres UANL,Toluca,,,,2.28,3.35,3.6,2.2,3.16,3.14,2.18,3.4,3.25,2.15,3.1,3.6
+Mexico,Liga MX,18/01/2026,03:05,Cruz Azul,Puebla,,,,1.44,4.75,7.5,1.39,4.54,6.7,1.45,4.7,7.4,1.41,4.75,6.5
+Mexico,Liga MX,18/01/2026,03:06,Club Tijuana,Atl. San Luis,,,,1.95,3.75,3.95,1.88,3.52,3.67,1.93,3.6,3.85,1.86,3.7,3.8
+Mexico,Liga MX,18/01/2026,18:00,UNAM Pumas,Club Leon,,,,1.78,3.8,4.9,1.72,3.63,4.33,1.81,3.65,4.5,1.76,3.8,4.2
+Mexico,Liga MX,18/01/2026,23:00,Santos Laguna,Juarez,,,,2.75,3.5,2.6,2.65,3.28,2.46,2.74,3.4,2.6,2.65,3.4,2.55
+Mexico,Liga MX,19/01/2026,01:06,Pachuca,Club America,,,,3.4,3.5,2.2,3.19,3.31,2.12,3.3,3.25,2.24,3.3,3.4,2.15
+Romania,Superliga,16/01/2026,18:00,FC Arges,FCSB,,,,3.9,3.2,2.1,3.64,3.11,2.01,3.65,3.3,2.1,3.6,3.2,2
+Romania,Superliga,17/01/2026,11:00,Unirea Slobozia,UTA Arad,,,,3.4,3.15,2.28,3.24,3.08,2.18,3.6,3.1,2.18,3.3,3.1,2.15
+Romania,Superliga,17/01/2026,15:15,Farul Constanta,FC Hermannstadt,,,,2,3.4,3.9,1.94,3.3,3.63,2.02,3.35,3.9,1.91,3.3,3.6
+Romania,Superliga,17/01/2026,18:00,FC Rapid Bucuresti,Metaloglobus Bucharest,,,,1.26,5.8,11,1.24,5.43,9.95,1.26,5.8,13,1.25,5.5,9.5
+Romania,Superliga,18/01/2026,13:30,Csikszereda M. Ciuc,FC Botosani,,,,4.75,3.66,1.75,4.45,3.5,1.71,4.9,3.55,1.74,4.5,3.5,1.7
+Romania,Superliga,18/01/2026,15:45,CFR Cluj,Otelul,,,,1.95,3.5,4.4,1.89,3.23,3.92,1.94,3.3,4.3,1.95,3.1,3.75
+Romania,Superliga,18/01/2026,18:30,Din. Bucuresti,U. Cluj,,,,1.92,3.35,4.3,1.87,3.22,4.03,1.91,3.2,4.5,1.85,3.2,4.1
+Romania,Superliga,19/01/2026,18:00,Petrolul,Univ. Craiova,,,,4.7,3.4,1.83,4.37,3.31,1.78,1.04,1.04,1.04,4.5,3.25,1.75
+Switzerland,Super League,17/01/2026,17:00,Luzern,Lugano,,,,2.88,3.45,2.57,2.68,3.26,2.45,2.84,3.3,2.54,2.75,3.2,2.5
+Switzerland,Super League,17/01/2026,17:00,Winterthur,St. Gallen,,,,4.2,4,1.76,3.98,3.86,1.72,4.2,4.2,1.76,4.2,4,1.68
+Switzerland,Super League,17/01/2026,19:30,Young Boys,Lausanne,,,,1.97,3.8,3.7,1.9,3.69,3.41,2.06,3.6,3.65,1.86,3.7,3.7
+Switzerland,Super League,18/01/2026,13:00,Servette,Zurich,,,,1.83,3.8,4.33,1.77,3.65,3.99,1.81,3.65,4.1,1.76,3.6,4.2
+Switzerland,Super League,18/01/2026,15:30,Basel,Sion,,,,1.68,4.2,4.6,1.66,3.92,4.33,1.64,3.8,4.2,1.66,4,4.5
+Switzerland,Super League,18/01/2026,15:30,Grasshoppers,Thun,,,,3.2,3.5,2.3,2.97,3.38,2.19,3.05,3.45,2.26,3.2,3.4,2.15
