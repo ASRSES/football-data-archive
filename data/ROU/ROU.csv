@@ -1,4 +1,4 @@
-﻿Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PSCH,PSCD,PSCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365CH,B365CD,B36CA
+﻿Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PSCH,PSCD,PSCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365CH,B365CD,B365CA
 Romania,Superliga,2012/2013,20/07/2012,16:30,Pandurii,U. Cluj,6,2,H,1.51,4.24,7.59,1.55,4.25,7.59,1.47,3.85,6.43,,,,,,
 Romania,Superliga,2012/2013,20/07/2012,18:20,CS Turnu Severin,Din. Bucuresti,1,2,A,,,,5.75,3.55,1.86,4.45,3.37,1.73,,,,,,
 Romania,Superliga,2012/2013,21/07/2012,17:00,Petrolul,Ceahlaul,5,0,H,1.44,4.47,9.03,1.5,4.47,9.03,1.43,3.99,6.83,,,,,,
@@ -4044,3 +4044,11 @@ Romania,Superliga,2025/2026,25/01/2026,12:30,Petrolul,Farul Constanta,0,1,A,,,,2
 Romania,Superliga,2025/2026,25/01/2026,18:00,FCSB,CFR Cluj,1,4,A,,,,1.88,3.4,5,1.76,3.36,4.42,1.86,3.5,5.4,1.73,3.4,4.33
 Romania,Superliga,2025/2026,26/01/2026,15:00,Otelul,Csikszereda M. Ciuc,3,0,H,,,,1.34,5.5,10,1.28,5.03,9.3,1.35,5.5,12,1.29,5.25,10
 Romania,Superliga,2025/2026,26/01/2026,18:00,UTA Arad,FC Rapid Bucuresti,1,2,A,,,,2.85,3.13,2.75,2.68,3.01,2.62,3,3.1,2.8,2.75,3,2.75
+Romania,Superliga,2025/2026,30/01/2026,15:00,CFR Cluj,Metaloglobus Bucharest,4,2,H,,,,1.3,5.33,11,1.26,5.06,9.74,1.3,6,14,1.25,4.75,9.5
+Romania,Superliga,2025/2026,30/01/2026,18:00,Din. Bucuresti,Petrolul,1,1,D,,,,1.54,3.9,8,1.48,3.72,6.93,1.52,4.1,9.4,1.5,3.9,7
+Romania,Superliga,2025/2026,31/01/2026,12:30,Unirea Slobozia,FC Hermannstadt,2,3,A,,,,3.15,3.05,2.6,2.95,2.85,2.48,3.25,2.94,2.72,3.1,2.7,2.45
+Romania,Superliga,2025/2026,31/01/2026,15:00,FC Arges,UTA Arad,0,1,A,,,,2.38,2.95,3.75,2.27,2.81,3.4,2.44,2.86,3.85,2.2,2.8,3.3
+Romania,Superliga,2025/2026,31/01/2026,18:00,FC Rapid Bucuresti,U. Cluj,0,2,A,,,,1.94,3.33,4.75,1.8,3.19,4.48,1.9,3.3,5.5,1.73,3.1,4.5
+Romania,Superliga,2025/2026,01/02/2026,15:15,Farul Constanta,Univ. Craiova,4,1,H,,,,4.2,3.35,1.96,3.92,3.15,1.91,4.4,3.45,2,3.9,3,1.85
+Romania,Superliga,2025/2026,01/02/2026,18:00,FCSB,Csikszereda M. Ciuc,1,0,H,,,,1.2,6.5,15,1.18,6,13.41,1.22,7.6,17.5,1.17,5.75,13
+Romania,Superliga,2025/2026,02/02/2026,16:30,FC Botosani,Otelul,0,0,D,,,,3.1,3.15,2.65,2.95,2.97,2.4,3.35,3,2.62,3.1,2.9,2.2
