@@ -1,4 +1,4 @@
-﻿Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PSCH,PSCD,PSCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365CH,B365CD,B36CA
+﻿Country,League,Season,Date,Time,Home,Away,HG,AG,Res,PSCH,PSCD,PSCA,MaxCH,MaxCD,MaxCA,AvgCH,AvgCD,AvgCA,BFECH,BFECD,BFECA,B365CH,B365CD,B365CA
 Denmark,Superliga ,2012/2013,13/07/2012,17:30,Aarhus,Aalborg,1,1,D,2.37,3.31,3.37,2.38,3.4,3.6,2.18,3.25,3.26,,,,,,
 Denmark,Superliga ,2012/2013,14/07/2012,16:00,Sonderjyske,Randers FC,6,1,H,2.65,3.34,2.89,2.65,3.35,3.25,2.4,3.21,2.89,,,,,,
 Denmark,Superliga ,2012/2013,15/07/2012,13:00,Esbjerg,Silkeborg,2,3,A,2.29,3.46,3.33,2.4,3.56,3.33,2.26,3.32,3.02,,,,,,
@@ -2867,3 +2867,9 @@ Denmark,Superliga,2025/2026,07/12/2025,13:00,Viborg,Midtjylland,3,3,D,,,,5.1,4.2
 Denmark,Superliga,2025/2026,07/12/2025,15:00,Randers FC,Aarhus,1,2,A,,,,3.6,3.6,2.05,3.39,3.49,1.98,3.8,3.75,2.08,3.5,3.5,2.01
 Denmark,Superliga,2025/2026,07/12/2025,17:00,FC Copenhagen,Sonderjyske,0,2,A,,,,1.6,4.33,5.5,1.55,4.1,5.12,1.63,4.4,5.9,1.53,4.33,5.25
 Denmark,Superliga,2025/2026,08/12/2025,18:00,Vejle,Brondby,2,1,H,,,,4.2,3.8,1.83,4.04,3.67,1.77,4.6,4,1.84,4.1,3.8,1.76
+Denmark,Superliga,2025/2026,08/02/2026,13:00,Nordsjaelland,Sonderjyske,2,1,H,,,,1.83,3.9,4.25,1.78,3.78,3.92,1.9,4,4.3,1.79,3.7,4.1
+Denmark,Superliga,2025/2026,08/02/2026,13:00,Silkeborg,Viborg,0,1,A,,,,3.2,3.7,2.18,3.01,3.55,2.12,3.3,3.95,2.22,3.1,3.6,2.1
+Denmark,Superliga,2025/2026,08/02/2026,15:00,Midtjylland,FC Copenhagen,2,1,H,,,,2.25,3.5,3.1,2.17,3.44,2.99,2.32,3.7,3.25,2.1,3.5,3.1
+Denmark,Superliga,2025/2026,08/02/2026,17:00,Brondby,Randers FC,0,0,D,,,,2.2,3.5,3.33,2.12,3.35,3.2,2.3,3.5,3.4,2.15,3.5,3.1
+Denmark,Superliga,2025/2026,09/02/2026,18:00,Vejle,Fredericia,2,3,A,,,,2.05,3.6,3.6,1.96,3.49,3.46,2.14,3.75,3.7,1.96,3.5,3.5
+Denmark,Superliga,2025/2026,09/02/2026,20:00,Aarhus,Odense,2,1,H,,,,1.7,4.1,5,1.64,3.88,4.59,1.75,4.1,5.2,1.62,4.1,4.5
