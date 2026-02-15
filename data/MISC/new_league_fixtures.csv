@@ -1,5 +1,25 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Argentina,Liga Profesional,12/02/2026,22:00,Tigre,Aldosivi,,,,1.95,3.1,5.25,1.89,3,4.67,1.22,2.8,2.1,1.86,3,5.25
+Argentina,Liga Profesional,12/02/2026,22:00,Tigre,Aldosivi,,,,1.82,3.15,5.75,1.78,3.06,5.41,1.85,3.25,6,1.71,3,5.75
+Argentina,Liga Profesional,13/02/2026,00:15,Argentinos Jrs,River Plate,,,,2.5,3,3.4,2.39,2.91,3.19,2.5,3.05,3.55,2.4,2.85,3.25
+Argentina,Liga Profesional,13/02/2026,23:00,Independiente,Lanus,,,,2.38,3.1,3.65,2.3,2.95,3.29,2.4,3.05,3.4,2.35,2.85,3.4
+Argentina,Liga Profesional,14/02/2026,01:15,Defensa y Justicia,Velez Sarsfield,,,,3.35,3,2.55,3.15,2.9,2.4,3.45,2.96,2.56,3.3,3,2.35
+Argentina,Liga Profesional,14/02/2026,01:15,Union de Santa Fe,San Lorenzo,,,,2.4,2.85,3.8,2.34,2.69,3.61,2.4,2.72,4,2.3,2.7,3.8
+Argentina,Liga Profesional,14/02/2026,20:30,Banfield,Racing Club,,,,3.3,3.25,2.38,3.17,3.1,2.28,3.35,3.2,2.4,3.3,3.2,2.25
+Argentina,Liga Profesional,14/02/2026,22:45,Huracan,Sarmiento Junin,,,,1.84,3.2,6.25,1.75,3.13,5.34,1.76,3.2,6.4,1.71,3.2,6.25
+Argentina,Liga Profesional,14/02/2026,22:45,Talleres Cordoba,Gimnasia Mendoza,,,,2.12,3.2,5.25,1.89,3.05,4.57,1.92,3.15,5.6,1.81,3,5.25
+Argentina,Liga Profesional,15/02/2026,01:00,Atl. Tucuman,Estudiantes Rio Cuarto,,,,1.94,3.13,4.75,1.88,3.07,4.58,1.61,3.2,3.15,1.81,3.1,4.75
+Argentina,Liga Profesional,15/02/2026,01:00,Ind. Rivadavia,Belgrano,,,,2.33,3.1,3.5,2.28,2.9,3.38,1.88,2.24,3.45,2.25,2.75,3.5
+Argentina,Liga Profesional,15/02/2026,20:00,Gimnasia L.P.,Estudiantes L.P.,,,,3.7,2.9,2.33,3.48,2.82,2.28,3.75,2.84,2.36,3.7,2.75,2.25
+Argentina,Liga Profesional,15/02/2026,22:30,Boca Juniors,Platense,,,,1.63,3.6,7.5,1.59,3.45,6.38,1.63,3.5,7.2,1.53,3.5,7
+Argentina,Liga Profesional,16/02/2026,01:00,Instituto,Central Cordoba,,,,2.02,3.14,5,1.9,3.06,4.45,1.89,3.05,4.9,1.86,3.1,5
+Argentina,Liga Profesional,16/02/2026,01:00,Rosario Central,Barracas Central,,,,1.61,3.66,8,1.56,3.48,6.71,1.61,3.55,7.6,1.53,3.4,8
+Argentina,Liga Profesional,16/02/2026,22:00,Dep. Riestra,Newells Old Boys,,,,2.38,2.88,3.7,2.31,2.79,3.52,2.38,2.72,3.7,2.3,2.75,3.7
+Austria,Bundesliga,14/02/2026,16:00,Hartberg,Altach,,,,2.5,3.25,3,2.4,3.12,2.87,2.28,2.92,2.68,2.32,3,3
+Austria,Bundesliga,14/02/2026,16:00,Ried,LASK,,,,2.5,3.4,2.71,2.49,3.26,2.65,2.32,3.05,2.52,2.4,3.3,2.65
+Austria,Bundesliga,14/02/2026,16:00,Tirol,Sturm Graz,,,,3.4,3.35,2.25,3.17,3.26,2.15,2.94,3.1,2.08,3.25,3.2,2.15
+Austria,Bundesliga,15/02/2026,13:30,BW Linz,Wolfsberger AC,,,,2.88,3.4,2.45,2.78,3.23,2.39,,,,2.75,3.1,2.4
+Austria,Bundesliga,15/02/2026,13:30,Grazer AK,Salzburg,,,,4.6,3.75,1.78,4.26,3.67,1.73,5,2.14,1.32,4.33,3.6,1.68
+Austria,Bundesliga,15/02/2026,16:00,Austria Vienna,SK Rapid,,,,2.5,3.3,2.9,2.38,3.19,2.82,2.48,3.35,2.94,2.25,3.25,2.82
 Brazil,Serie A,11/02/2026,00:30,Vitoria,Flamengo RJ,,,,5.5,4,1.67,5.23,3.67,1.64,6,4,1.7,5.5,3.7,1.62
 Brazil,Serie A,11/02/2026,22:00,Chapecoense-SC,Coritiba,,,,2.45,3.1,3.4,2.33,2.99,3.21,2.46,2.98,3.25,2.3,3,3.4
 Brazil,Serie A,11/02/2026,22:00,Mirassol,Cruzeiro,,,,2.43,3.25,3.4,2.35,3.07,3.1,2.38,3.1,3.35,2.32,3.25,3.1
@@ -10,9 +30,52 @@ Brazil,Serie A,12/02/2026,22:00,Athletico-PR,Santos,,,,2.32,3.3,3.7,2.18,3.14,3.
 Brazil,Serie A,12/02/2026,22:30,Fluminense,Botafogo RJ,,,,2.16,3.3,3.8,2.1,3.15,3.52,2.12,3.2,3.75,2.1,3.25,3.6
 Brazil,Serie A,12/02/2026,23:00,Corinthians,Bragantino,,,,2.06,3.33,4.2,2.03,3.13,3.82,2.08,3.1,4.1,2.01,3.3,3.8
 Brazil,Serie A,13/02/2026,00:30,Internacional,Palmeiras,,,,3.2,3.4,2.36,3.07,3.19,2.29,3.25,3.2,2.4,3.1,3.3,2.3
+Denmark,Superliga,13/02/2026,18:00,Randers FC,Vejle,,,,1.78,3.75,5.33,1.7,3.56,4.6,1.76,3.85,5.2,1.68,3.5,5
+Denmark,Superliga,14/02/2026,16:00,FC Copenhagen,Nordsjaelland,,,,1.8,4,4.2,1.74,3.82,3.97,1.82,4.1,4.2,1.76,3.9,4
+Denmark,Superliga,15/02/2026,13:00,Fredericia,Aarhus,,,,7.5,5,1.4,6.75,4.83,1.36,7.4,5.1,1.45,6.5,5,1.37
+Denmark,Superliga,15/02/2026,15:00,Odense,Midtjylland,,,,4.3,4,1.85,3.78,3.83,1.78,1.04,1.09,1.04,3.8,3.9,1.79
+Denmark,Superliga,15/02/2026,17:00,Viborg,Brondby,,,,2.6,3.6,2.6,2.5,3.44,2.52,2.56,3.6,2.66,2.55,3.4,2.55
+Denmark,Superliga,16/02/2026,18:00,Sonderjyske,Silkeborg,,,,1.95,4,3.8,1.89,3.73,3.46,1.95,4,3.6,1.86,3.7,3.8
+Ireland,Premier Division,13/02/2026,19:45,Derry City,Dundalk,,,,1.61,4.33,5.5,1.57,3.81,5.06,1.6,4.2,5.9,1.6,4.33,4.75
+Ireland,Premier Division,13/02/2026,19:45,Drogheda,Waterford,,,,1.96,3.4,3.85,1.91,3.29,3.65,2.08,3.2,3.7,1.9,3.25,3.75
+Ireland,Premier Division,13/02/2026,19:45,St. Patricks,Galway,,,,1.8,3.5,4.5,1.73,3.36,4.41,1.8,3.65,4.9,1.75,3.3,4.5
+Ireland,Premier Division,13/02/2026,20:00,Shelbourne,Shamrock Rovers,,,,2.75,3.1,2.95,2.61,2.94,2.67,2.76,3.1,2.7,2.63,3.1,2.63
+Ireland,Premier Division,14/02/2026,19:45,Sligo Rovers,Bohemians,,,,3.5,3.3,2.18,3.26,3.22,2.04,3.65,3.35,2.02,3.5,3.25,2
+Mexico,Liga MX,14/02/2026,01:00,Puebla,UNAM Pumas,,,,2.65,3.25,2.71,2.56,3.17,2.64,2.68,3.35,2.8,2.65,3.1,2.7
+Mexico,Liga MX,14/02/2026,03:05,Toluca,Club Tijuana,,,,1.36,5.25,9.5,1.32,4.83,8.15,1.36,4.9,9,1.33,4.5,9
+Mexico,Liga MX,14/02/2026,23:00,Atl. San Luis,Queretaro,,,,1.88,3.75,4.35,1.79,3.53,4.08,1.73,3.45,3.8,1.81,3.6,4.2
+Mexico,Liga MX,14/02/2026,23:00,Pachuca,Atlas,,,,1.69,3.75,5.4,1.65,3.62,4.92,1.69,3.55,4.7,1.66,3.7,5
+Mexico,Liga MX,15/02/2026,01:00,Monterrey,Club Leon,,,,1.55,4.33,6,1.52,4.17,5.3,1.57,4.4,5.7,1.53,4.2,6
+Mexico,Liga MX,15/02/2026,01:06,Juarez,Necaxa,,,,2.33,3.3,3.2,2.27,3.16,3.03,2.16,2.9,2.86,2.3,3.1,3.2
+Mexico,Liga MX,15/02/2026,03:07,Guadalajara Chivas,Club America,,,,2.28,3.4,3.4,2.19,3.22,3.16,2.3,3.3,3.25,2.2,3.25,3.3
+Mexico,Liga MX,15/02/2026,22:30,Cruz Azul,Tigres UANL,,,,2.45,3.25,3.45,2.29,3.01,3.17,1.09,1.01,1.09,2.35,3,3.3
+Mexico,Liga MX,15/02/2026,23:00,Santos Laguna,Mazatlan FC,,,,1.91,3.75,4.2,1.84,3.61,3.79,1.89,3.4,3.9,1.81,3.7,4.2
+Poland,Ekstraklasa,13/02/2026,17:00,Radomiak Radom,Korona Kielce,,,,2.25,3.4,3.3,2.17,3.27,3.15,2.22,3.25,3.15,2.15,3.25,3.1
+Poland,Ekstraklasa,13/02/2026,19:30,GKS Katowice,Legia,,,,3.2,3.4,2.22,3.11,3.29,2.17,3,3.4,2.24,3.1,3.25,2.15
+Poland,Ekstraklasa,14/02/2026,13:45,Cracovia,Jagiellonia,,,,2.58,3.33,2.85,2.47,3.21,2.71,2.46,3.35,2.44,2.5,3.2,2.7
+Poland,Ekstraklasa,14/02/2026,16:30,Zaglebie,Rakow,,,,3.8,3.5,2.05,3.57,3.3,1.98,3.9,3.4,2,3.6,3.2,2
+Poland,Ekstraklasa,14/02/2026,19:15,Wisla Plock,Widzew Lodz,,,,2.83,3.25,2.65,2.66,3.12,2.56,2.7,3.2,2.66,2.63,3.1,2.5
+Poland,Ekstraklasa,15/02/2026,11:15,Motor Lublin,Lechia Gdansk,,,,2.48,3.6,2.66,2.42,3.5,2.58,2.32,2.54,2.5,2.45,3.5,2.55
+Poland,Ekstraklasa,15/02/2026,13:45,Pogon Szczecin,Arka Gdynia,,,,1.7,4.2,4.75,1.66,3.79,4.54,1.58,2.04,2.12,1.67,3.6,4.75
+Poland,Ekstraklasa,15/02/2026,16:30,Lech Poznan,Piast Gliwice,,,,1.75,4,4.5,1.7,3.73,4.37,1.73,3.85,4.9,1.7,3.6,4.5
+Poland,Ekstraklasa,16/02/2026,18:00,Termalica B-B.,Gornik Zabrze,,,,3.35,3.6,2.1,3.25,3.43,2.06,1.04,1.01,1.04,3.25,3.4,2.05
+Romania,Superliga,13/02/2026,18:00,Petrolul,FC Arges,,,,3.14,2.95,2.7,3,2.73,2.56,3.2,2.68,2.68,3,2.7,2.45
+Romania,Superliga,14/02/2026,12:30,Metaloglobus Bucharest,Otelul,,,,7.2,4.5,1.48,6.68,4.16,1.42,8.2,4.4,1.45,6.5,3.75,1.44
+Romania,Superliga,14/02/2026,17:00,U. Cluj,Csikszereda M. Ciuc,,,,1.49,4.2,7.3,1.45,3.94,6.68,1.4,3.75,2.48,1.44,3.7,7
+Romania,Superliga,15/02/2026,12:00,UTA Arad,FC Botosani,,,,2.76,3.2,2.75,2.66,3.02,2.59,2.86,3.15,2.64,2.63,2.9,2.55
+Romania,Superliga,15/02/2026,15:00,Farul Constanta,FC Rapid Bucuresti,,,,3.2,3.5,2.2,3.05,3.33,2.14,1.04,1.01,1.04,2.75,3.4,2.2
+Romania,Superliga,15/02/2026,18:00,Univ. Craiova,FCSB,,,,2.14,3.4,3.75,1.99,3.25,3.53,2,2.94,3.1,1.91,3.25,3.5
+Romania,Superliga,16/02/2026,15:00,FC Hermannstadt,CFR Cluj,,,,5,3.6,1.78,4.67,3.44,1.7,5.6,3.55,1.73,4.75,3.3,1.65
+Romania,Superliga,16/02/2026,18:00,Din. Bucuresti,Unirea Slobozia,,,,1.3,5.6,11,1.26,4.97,9.84,1.04,1.01,1.04,1.25,4.5,9.5
 Switzerland,Super League,10/02/2026,19:30,Luzern,Grasshoppers,,,,1.95,3.8,3.8,1.86,3.67,3.67,1.91,4,4.1,1.79,3.8,3.8
 Switzerland,Super League,11/02/2026,19:30,Lugano,Servette,,,,2.28,3.5,3.4,2.18,3.24,3.11,2.28,3.35,3.4,2.2,3.25,3.3
 Switzerland,Super League,11/02/2026,19:30,St. Gallen,Young Boys,,,,2.4,3.75,2.85,2.32,3.61,2.63,2.46,3.9,2.8,2.25,3.6,2.75
 Switzerland,Super League,11/02/2026,19:30,Zurich,Winterthur,,,,1.64,4.33,5,1.62,4.01,4.49,1.68,4.2,4.8,1.62,3.8,5
 Switzerland,Super League,12/02/2026,19:30,Sion,Basel,,,,2.8,3.55,2.57,2.61,3.43,2.41,2.62,3.65,2.56,2.57,3.5,2.45
 Switzerland,Super League,12/02/2026,19:30,Thun,Lausanne,,,,2.05,3.6,3.8,2,3.38,3.43,2.04,3.45,3.9,1.96,3.6,3.5
+Switzerland,Super League,14/02/2026,17:00,St. Gallen,Grasshoppers,,,,1.75,4,4.25,1.71,3.83,4.11,1.73,4,4.2,1.68,3.8,4.2
+Switzerland,Super League,14/02/2026,17:00,Zurich,Luzern,,,,2.85,3.6,2.66,2.65,3.29,2.47,2.54,3.55,2.4,2.5,3.6,2.4
+Switzerland,Super League,14/02/2026,19:30,Young Boys,Winterthur,,,,1.34,6,9,1.3,5.4,7.71,1.33,5.8,9.2,1.3,5,7.5
+Switzerland,Super League,15/02/2026,13:00,Thun,Sion,,,,2.08,3.8,3.8,1.93,3.61,3.45,,,,1.79,3.7,3.7
+Switzerland,Super League,15/02/2026,15:30,Basel,Lugano,,,,2,3.75,3.5,1.95,3.59,3.4,,,,1.96,3.5,3.3
+Switzerland,Super League,15/02/2026,15:30,Lausanne,Servette,,,,2.25,3.65,3,2.19,3.54,2.86,,,,2.1,3.5,3
