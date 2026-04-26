@@ -1,51 +1,119 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Argentina,Liga Profesional,24/04/2026,00:00,Defensa y Justicia,Boca Juniors,,,,3.8,3.13,2.15,3.62,3.05,2.09,,,,3.8,3,2.05
-Austria,Bundesliga,21/04/2026,17:30,Altach,Tirol,,,,2.3,3.13,3.4,2.25,3.04,3.18,,,,2.2,3.1,3.25
-Austria,Bundesliga,21/04/2026,17:30,BW Linz,Wolfsberger AC,,,,2,3.5,3.8,1.96,3.36,3.48,,,,1.91,3.4,3.8
-Austria,Bundesliga,21/04/2026,19:30,Ried,Grazer AK,,,,2.25,3.2,3.4,2.18,3.09,3.2,,,,2.2,3.1,3.4
-Austria,Bundesliga,22/04/2026,17:30,Salzburg,Austria Vienna,,,,1.68,4.2,5.25,1.63,3.88,4.51,,,,1.57,3.9,5.25
-Austria,Bundesliga,22/04/2026,17:30,SK Rapid,Hartberg,,,,1.73,3.75,5,1.69,3.62,4.38,,,,1.62,3.75,5
-Austria,Bundesliga,22/04/2026,19:30,Sturm Graz,LASK,,,,2.6,3.6,2.6,2.53,3.42,2.49,,,,2.55,3.4,2.55
-China,Super League,21/04/2026,12:00,Shenzhen Xinpengcheng,Beijing Guoan,,,,4,3.8,1.95,3.65,3.64,1.82,,,,4,3.6,1.81
-China,Super League,21/04/2026,12:35,Chengdu Rongcheng,Yunnan Yukun,,,,1.5,5,6.25,1.44,4.68,5.36,,,,1.42,4.75,5.75
-China,Super League,21/04/2026,12:35,Wuhan Three Towns,Zhejiang Professional,,,,3.1,3.75,2.82,2.42,3.52,2.54,,,,2.3,3.5,2.82
-China,Super League,21/04/2026,13:00,Shanghai Port,Chongqing Tonglianglong,,,,1.97,4.6,6,1.9,3.41,3.74,,,,1.91,3.4,4
-China,Super League,21/04/2026,13:00,Tianjin Jinmen Tiger,Shandong Taishan,,,,4.33,3.8,1.8,4.12,3.54,1.76,,,,4.33,3.7,1.71
-China,Super League,22/04/2026,12:35,Liaoning Tieren,Dalian Yingbo,,,,2.23,3.4,3.2,2.17,3.32,3,,,,2.2,3.25,3.2
-China,Super League,22/04/2026,12:35,Qingdao West Coast,Henan Songshan Longmen,,,,2.5,3.5,2.8,2.46,3.3,2.58,,,,2.5,3.3,2.65
-China,Super League,22/04/2026,13:00,Shanghai Shenhua,Qingdao Hainiu,,,,1.35,5.5,8.4,1.31,5.08,7.3,,,,1.3,5.5,7
-Denmark,Superliga,22/04/2026,17:00,FC Copenhagen,Odense,,,,1.67,4.2,4.75,1.61,4.03,4.45,,,,1.57,4.2,4.75
-Denmark,Superliga,22/04/2026,17:00,Vejle,Silkeborg,,,,2.5,3.6,2.8,2.38,3.47,2.6,,,,2.45,3.5,2.57
-Denmark,Superliga,22/04/2026,19:00,Viborg,Brondby,,,,2.35,3.6,2.85,2.26,3.47,2.75,,,,2.25,3.6,2.82
-Denmark,Superliga,23/04/2026,17:00,Nordsjaelland,Aarhus,,,,3,3.75,2.28,2.84,3.53,2.19,,,,2.85,3.6,2.2
-Denmark,Superliga,23/04/2026,17:00,Randers FC,Fredericia,,,,1.8,4,4.5,1.68,3.8,4.25,,,,1.66,4,4.5
-Denmark,Superliga,23/04/2026,19:00,Sonderjyske,Midtjylland,,,,4.75,4.2,1.71,4.34,3.96,1.64,,,,4.75,3.9,1.62
-Finland,Veikkausliiga,22/04/2026,16:00,KuPS,AC Oulu,,,,1.73,4,4.5,1.68,3.75,4.25,,,,1.7,3.7,4.33
-Mexico,Liga MX,22/04/2026,02:00,Queretaro,Cruz Azul,,,,4.35,4,1.75,4.15,3.74,1.71,,,,4.33,4,1.71
-Mexico,Liga MX,22/04/2026,02:00,UNAM Pumas,Juarez,,,,1.92,4,3.9,1.83,3.62,3.67,,,,1.71,3.5,3.9
-Mexico,Liga MX,22/04/2026,04:05,Monterrey,Puebla,,,,1.46,4.75,6.8,1.42,4.44,6.15,,,,1.41,4.75,6.5
-Mexico,Liga MX,22/04/2026,04:06,Club Leon,Club America,,,,3.65,3.6,2.05,3.4,3.48,1.95,,,,3.6,3.5,2.01
-Mexico,Liga MX,23/04/2026,02:00,Atl. San Luis,Santos Laguna,,,,1.73,4.2,4.5,1.68,3.93,4.11,,,,1.66,4.2,4.33
-Mexico,Liga MX,23/04/2026,02:00,Atlas,Tigres UANL,,,,4.5,3.7,1.91,4.13,3.45,1.78,,,,4.33,3.7,1.76
-Mexico,Liga MX,23/04/2026,02:00,Mazatlan FC,Toluca,,,,7.5,5.33,1.41,6.61,4.79,1.37,,,,7,5,1.37
-Mexico,Liga MX,23/04/2026,04:05,Necaxa,Guadalajara Chivas,,,,4.9,4.1,1.73,4.34,3.9,1.65,,,,4.75,3.9,1.68
-Mexico,Liga MX,23/04/2026,04:06,Club Tijuana,Pachuca,,,,3,3.7,2.45,2.62,3.43,2.36,,,,2.57,3.7,2.4
-Sweden,Allsvenskan,22/04/2026,18:00,Elfsborg,Djurgarden,,,,3.1,3.5,2.32,2.89,3.34,2.27,,,,3.1,3.4,2.2
-Sweden,Allsvenskan,22/04/2026,18:00,Hammarby,Halmstad,,,,1.22,7,19,1.17,6.42,12.83,,,,1.17,7,11
-Sweden,Allsvenskan,22/04/2026,18:00,Orgryte,Brommapojkarna,,,,2.9,3.6,2.38,2.76,3.47,2.29,,,,2.85,3.6,2.25
-Sweden,Allsvenskan,22/04/2026,18:00,Vasteras SK,Hacken,,,,3.25,3.66,2.1,3.16,3.51,2.06,,,,3.2,3.6,2.05
-Sweden,Allsvenskan,23/04/2026,18:00,Degerfors,AIK,,,,3.15,3.4,2.33,2.98,3.28,2.24,,,,3,3.4,2.25
-Sweden,Allsvenskan,23/04/2026,18:00,GAIS,Mjallby,,,,3.1,3.4,2.35,2.91,3.28,2.27,,,,3,3.4,2.25
-Sweden,Allsvenskan,23/04/2026,18:00,Kalmar,Goteborg,,,,3,3.4,2.4,2.87,3.23,2.32,,,,3,3.25,2.32
-Sweden,Allsvenskan,23/04/2026,18:00,Malmo FF,Sirius,,,,2.15,3.8,3.33,2.07,3.46,3.13,,,,2.05,3.8,3.1
-USA,MLS,23/04/2026,00:30,Columbus Crew,Los Angeles Galaxy,,,,1.81,4,4.4,1.75,3.78,4.05,,,,1.76,4,3.9
-USA,MLS,23/04/2026,00:30,New York City,FC Cincinnati,,,,1.88,3.8,4.1,1.81,3.72,3.85,,,,1.76,3.75,4.1
-USA,MLS,23/04/2026,00:30,New York Red Bulls,DC United,,,,1.75,3.95,4.7,1.71,3.77,4.34,,,,1.68,3.8,4.5
-USA,MLS,23/04/2026,00:30,Orlando City,Charlotte,,,,2.45,3.8,2.88,2.36,3.63,2.63,,,,2.4,3.8,2.5
-USA,MLS,23/04/2026,00:30,Toronto FC,Philadelphia Union,,,,2.42,3.65,3.05,2.33,3.37,2.81,,,,2.4,3.4,2.75
-USA,MLS,23/04/2026,00:45,Atlanta Utd,New England Revolution,,,,2,3.65,3.75,1.93,3.53,3.55,,,,1.91,3.6,3.6
-USA,MLS,23/04/2026,01:30,FC Dallas,Minnesota United,,,,2.18,3.75,3.25,2.07,3.55,3.13,,,,2.05,3.5,3.25
-USA,MLS,23/04/2026,01:30,Houston Dynamo,San Diego FC,,,,2.02,3.9,3.45,1.95,3.75,3.31,,,,1.91,3.9,3.4
-USA,MLS,23/04/2026,02:30,Real Salt Lake,Inter Miami,,,,2.38,4,2.82,2.22,3.8,2.71,,,,2.15,3.9,2.82
-USA,MLS,23/04/2026,03:30,Los Angeles FC,Colorado Rapids,,,,1.43,5.2,7.5,1.39,4.9,6.39,,,,1.39,4.75,6.25
-USA,MLS,23/04/2026,03:30,San Jose Earthquakes,Austin FC,,,,1.67,4.5,5.25,1.57,4.1,4.92,,,,1.53,4.1,5.25
+USA,MLS,25/04/2026,18:00,Toronto FC,Atlanta Utd,,,,1.96,3.7,4.2,1.84,3.59,3.8,,,,1.81,3.6,4.2
+USA,MLS,25/04/2026,19:30,CF Montreal,New York City,,,,2.8,3.6,2.45,2.66,3.44,2.38,,,,2.65,3.5,2.45
+USA,MLS,25/04/2026,21:45,Minnesota United,Los Angeles FC,,,,2.48,3.7,3,2.33,3.48,2.73,,,,2.25,3.5,3
+USA,MLS,26/04/2026,00:30,Columbus Crew,Philadelphia Union,,,,1.83,4,4.6,1.77,3.68,4.09,,,,1.76,3.75,4.33
+USA,MLS,26/04/2026,00:30,DC United,Orlando City,,,,1.97,3.8,4.2,1.84,3.64,3.77,,,,1.76,3.8,4.2
+USA,MLS,26/04/2026,00:30,FC Cincinnati,New York Red Bulls,,,,1.87,4.2,4,1.78,4.02,3.64,,,,1.71,4.2,4
+USA,MLS,26/04/2026,00:30,Inter Miami,New England Revolution,,,,1.41,5.2,7.7,1.37,4.91,6.89,,,,1.35,5,7.5
+USA,MLS,26/04/2026,01:30,Austin FC,Houston Dynamo,,,,2.5,3.5,3,2.34,3.36,2.78,,,,2.45,3.25,2.85
+USA,MLS,26/04/2026,01:30,Nashville SC,Charlotte,,,,1.76,4,5.5,1.63,3.81,4.79,,,,1.57,4,5.5
+USA,MLS,26/04/2026,01:30,Chicago Fire,Sporting Kansas City,,,,1.32,6,10,1.27,5.67,8.35,,,,1.27,5.25,10
+USA,MLS,26/04/2026,01:30,St. Louis City,San Jose Earthquakes,,,,2.45,3.7,2.9,2.32,3.57,2.68,,,,2.45,3.5,2.65
+USA,MLS,26/04/2026,02:30,San Diego FC,Portland Timbers,,,,1.77,4.25,4.33,1.71,4.07,3.91,,,,1.68,4,4.33
+USA,MLS,26/04/2026,03:30,Vancouver Whitecaps,Colorado Rapids,,,,1.37,5.6,8,1.33,5.28,7.12,,,,1.3,5.5,8
+USA,MLS,26/04/2026,03:30,Seattle Sounders,FC Dallas,,,,1.77,4,4.75,1.72,3.75,4.25,,,,1.68,3.75,4.75
+USA,MLS,27/04/2026,00:00,Los Angeles Galaxy,Real Salt Lake,,,,2.3,3.75,3,2.22,3.6,2.79,,,,2.2,3.6,3
+Switzerland,Super League,25/04/2026,17:00,Grasshoppers,Luzern,,,,3,3.75,2.32,2.72,3.56,2.25,,,,2.82,3.75,2.2
+Switzerland,Super League,25/04/2026,17:00,Lausanne,Zurich,,,,1.82,4,3.95,1.77,3.91,3.71,,,,1.76,4,3.9
+Switzerland,Super League,25/04/2026,19:30,Thun,Lugano,,,,1.92,4,3.6,1.88,3.75,3.41,,,,1.86,3.9,3.6
+Switzerland,Super League,26/04/2026,13:00,Basel,Sion,,,,2.45,4,2.6,2.39,3.59,2.51,,,,2.4,3.8,2.5
+Switzerland,Super League,26/04/2026,15:30,Young Boys,St. Gallen,,,,2.16,4,2.9,2.11,3.84,2.78,,,,2.1,4,2.82
+Switzerland,Super League,26/04/2026,15:30,Servette,Winterthur,,,,1.4,5.5,7.25,1.35,5.05,6.62,,,,1.35,5.5,6.5
+Sweden,Allsvenskan,26/04/2026,13:00,Djurgarden,Hammarby,,,,3,3.5,2.38,2.83,3.45,2.23,,,,2.7,3.5,2.25
+Sweden,Allsvenskan,26/04/2026,15:30,Brommapojkarna,Vasteras SK,,,,2.38,3.5,2.9,2.28,3.34,2.83,,,,2.2,3.4,2.82
+Sweden,Allsvenskan,26/04/2026,15:30,Goteborg,GAIS,,,,2.6,3.4,2.71,2.49,3.29,2.59,,,,2.5,3.3,2.55
+Sweden,Allsvenskan,27/04/2026,18:00,AIK,Malmo FF,,,,2.5,3.4,2.8,2.39,3.25,2.71,,,,2.35,3.3,2.7
+Sweden,Allsvenskan,27/04/2026,18:00,Orgryte,Degerfors,,,,3.4,3.4,2.2,3.14,3.33,2.11,,,,3.1,3.4,2.1
+Sweden,Allsvenskan,27/04/2026,18:00,Kalmar,Elfsborg,,,,2.7,3.3,2.71,2.61,3.11,2.58,,,,2.57,3.3,2.57
+Sweden,Allsvenskan,27/04/2026,18:00,Hacken,Sirius,,,,2.65,3.75,2.6,2.49,3.45,2.5,,,,2.65,3.4,2.4
+Sweden,Allsvenskan,27/04/2026,18:00,Mjallby,Halmstad,,,,1.46,4.5,8.2,1.41,4.28,6.76,,,,1.42,4.2,6.5
+Romania,Superliga,24/04/2026,15:30,FC Hermannstadt,Csikszereda M. Ciuc,,,,1.85,3.8,4.4,1.77,3.47,4.04,,,,1.85,3.6,3.4
+Romania,Superliga,25/04/2026,13:00,FC Botosani,Otelul,,,,2.06,3.3,3.8,1.99,3.18,3.46,,,,1.95,3.1,3.5
+Romania,Superliga,25/04/2026,18:30,CFR Cluj,U. Cluj,,,,2.2,3.6,3.3,2.14,3.24,3.09,,,,2.15,3.2,3.1
+Romania,Superliga,26/04/2026,12:00,UTA Arad,Farul Constanta,,,,2.08,3.8,3.5,2.02,3.37,3.2,,,,2.05,3.2,3.1
+Romania,Superliga,26/04/2026,19:00,Dinamo Bucuresti,FC Rapid Bucuresti,,,,2.3,3.5,3.3,2.22,3.26,2.91,,,,2.25,3.5,2.75
+Romania,Superliga,27/04/2026,15:30,Metaloglobus Bucharest,Unirea Slobozia,,,,3.2,3.4,2.48,2.97,3.2,2.2,,,,3,3.2,2.1
+Romania,Superliga,27/04/2026,18:30,FC Arges,Univ. Craiova,,,,4.33,3.25,1.95,4.01,3.02,1.9,,,,4.1,2.9,1.9
+Romania,Superliga,24/04/2026,18:30,FCSB,Petrolul,,,,1.57,4.1,6.5,1.5,3.88,5.66,,,,1.55,3.5,5.25
+Poland,Ekstraklasa,24/04/2026,17:00,Zaglebie,Termalica B-B.,,,,1.9,3.66,4.25,1.83,3.54,3.78,,,,1.8,3.6,4
+Poland,Ekstraklasa,24/04/2026,19:30,Jagiellonia,Gornik Zabrze,,,,2.33,3.45,3.25,2.2,3.35,2.94,,,,2.2,3.4,3
+Poland,Ekstraklasa,25/04/2026,13:45,Korona Kielce,GKS Katowice,,,,2.22,3.55,3.4,2.12,3.39,3.05,,,,2.2,3.4,2.9
+Poland,Ekstraklasa,25/04/2026,16:30,Lechia Gdansk,Rakow,,,,2.65,3.55,2.62,2.49,3.39,2.5,,,,2.45,3.5,2.55
+Poland,Ekstraklasa,25/04/2026,19:15,Cracovia,Pogon Szczecin,,,,2.25,3.5,3.2,2.15,3.33,2.99,,,,2.1,3.3,3.2
+Poland,Ekstraklasa,26/04/2026,11:15,Wisla Plock,Radomiak Radom,,,,2.48,3.35,2.9,2.36,3.24,2.74,,,,2.35,3.25,2.75
+Poland,Ekstraklasa,26/04/2026,13:45,Widzew Lodz,Motor Lublin,,,,1.83,3.6,4.2,1.78,3.5,4.01,,,,1.75,3.5,4.2
+Poland,Ekstraklasa,26/04/2026,16:30,Lech Poznan,Legia,,,,2,3.65,3.6,1.96,3.52,3.32,,,,2,3.4,3.3
+Poland,Ekstraklasa,27/04/2026,18:00,Piast Gliwice,Arka Gdynia,,,,1.86,3.5,4.5,1.79,3.38,4.1,,,,1.75,3.4,4.1
+Norway,Eliteserien,25/04/2026,15:00,Fredrikstad,Viking,,,,4.33,4.2,1.76,4.02,3.94,1.69,,,,4.33,4.1,1.7
+Norway,Eliteserien,25/04/2026,17:00,Rosenborg,Brann,,,,2.65,3.8,2.48,2.57,3.49,2.39,,,,2.6,3.8,2.4
+Norway,Eliteserien,26/04/2026,13:30,Molde,Valerenga,,,,2,3.8,3.4,1.94,3.72,3.23,,,,2,3.75,3.4
+Norway,Eliteserien,26/04/2026,16:00,Aalesund,Kristiansund,,,,2.05,3.85,3.4,1.93,3.67,3.25,,,,1.91,3.6,3.25
+Norway,Eliteserien,26/04/2026,16:00,HamKam,Start,,,,2.04,3.6,3.6,1.97,3.49,3.33,,,,2,3.6,3.5
+Norway,Eliteserien,26/04/2026,16:00,KFUM Oslo,Sarpsborg 08,,,,2.25,3.8,3.05,2.2,3.58,2.78,,,,2.25,3.8,2.75
+Norway,Eliteserien,26/04/2026,16:00,Tromso,Sandefjord,,,,1.6,4.2,5.75,1.56,3.97,5.09,,,,1.57,4.1,5.5
+Norway,Eliteserien,26/04/2026,18:15,Lillestrom,Bodo/Glimt,,,,3.35,4,2.08,3.09,3.85,1.95,,,,3.1,4,2.05
+Mexico,Liga MX,25/04/2026,04:00,Puebla,Queretaro,,,,2.44,3.6,2.8,2.34,3.38,2.68,,,,2.4,3.5,2.75
+Mexico,Liga MX,26/04/2026,00:00,Tigres UANL,Mazatlan FC,,,,1.2,7.25,17,1.16,6.68,12.44,,,,1.13,7,17
+Mexico,Liga MX,26/04/2026,00:00,Pachuca,UNAM Pumas,,,,2.1,3.75,3.4,1.98,3.56,3.2,,,,2.05,3.5,3.4
+Mexico,Liga MX,26/04/2026,02:00,Toluca,Club Leon,,,,1.5,4.9,6.75,1.44,4.49,5.73,,,,1.46,4.33,6.25
+Mexico,Liga MX,26/04/2026,02:07,Guadalajara Chivas,Club Tijuana,,,,1.43,5.1,8.1,1.35,4.75,6.95,,,,1.41,4.5,7.5
+Mexico,Liga MX,26/04/2026,04:00,Club America,Atlas,,,,1.55,4.1,6.25,1.51,3.88,5.68,,,,1.51,3.9,6.25
+Mexico,Liga MX,26/04/2026,04:00,Juarez,Atl. San Luis,,,,2.08,3.8,3.55,2,3.6,3.16,,,,2.05,3.6,3.3
+Mexico,Liga MX,27/04/2026,00:00,Santos Laguna,Monterrey,,,,3.9,4.1,1.82,3.63,3.84,1.78,,,,3.9,3.9,1.79
+Mexico,Liga MX,27/04/2026,02:00,Cruz Azul,Necaxa,,,,1.42,5,7,1.38,4.7,6.47,,,,1.39,4.75,7
+Ireland,Premier Division,24/04/2026,19:45,St. Patricks,Bohemians,,,,2.25,3.15,3.5,2.14,3.03,3.23,,,,2.2,3.1,3.1
+Ireland,Premier Division,24/04/2026,19:45,Shelbourne,Drogheda,,,,1.72,3.6,5.4,1.64,3.44,4.81,,,,1.62,3.5,5.25
+Ireland,Premier Division,24/04/2026,19:45,Waterford,Galway,,,,3.15,3.4,2.28,2.94,3.22,2.18,,,,3,3.3,2.15
+Ireland,Premier Division,24/04/2026,20:00,Derry City,Shamrock Rovers,,,,3.15,3.2,2.33,2.97,3.07,2.24,,,,3,3.2,2.25
+Ireland,Premier Division,25/04/2026,19:45,Sligo Rovers,Dundalk,,,,3.7,3.45,2,3.49,3.35,1.91,,,,3.6,3.4,1.91
+Finland,Veikkausliiga,24/04/2026,16:00,TPS,Gnistan,,,,2.55,3.75,2.7,2.34,3.48,2.59,,,,2.55,3.3,2.7
+Finland,Veikkausliiga,24/04/2026,16:00,VPS,Ilves,,,,3.9,3.6,1.95,3.59,3.45,1.88,,,,3.9,3.3,1.95
+Finland,Veikkausliiga,24/04/2026,17:00,SJK,Jaro,,,,1.72,4,4.5,1.67,3.73,4.24,,,,1.7,3.7,4.5
+Finland,Veikkausliiga,25/04/2026,13:00,Lahti,AC Oulu,,,,2.95,3.5,2.36,2.85,3.29,2.25,,,,2.8,3.5,2.3
+Finland,Veikkausliiga,25/04/2026,15:00,Inter Turku,Mariehamn,,,,1.37,5,8.9,1.32,4.71,7.79,,,,1.33,4.33,8.5
+Finland,Veikkausliiga,26/04/2026,14:00,KuPS,HJK,,,,2.54,3.6,2.55,2.45,3.45,2.48,,,,2.5,3.4,2.5
+Denmark,Superliga,26/04/2026,13:00,Fredericia,Odense,,,,3.4,3.6,2.15,3.11,3.47,2.05,,,,,,
+Denmark,Superliga,26/04/2026,13:00,Silkeborg,Randers FC,,,,2.8,3.55,2.5,2.62,3.39,2.39,,,,,,
+Denmark,Superliga,26/04/2026,15:00,Sonderjyske,Brondby,,,,3.35,3.75,2.12,3.16,3.53,2.01,,,,,,
+Denmark,Superliga,26/04/2026,17:00,Viborg,Nordsjaelland,,,,2.35,3.75,2.85,2.23,3.59,2.71,,,,,,
+Denmark,Superliga,26/04/2026,19:00,Aarhus,Midtjylland,,,,2.5,3.4,3,2.35,3.24,2.76,,,,,,
+Denmark,Superliga,27/04/2026,18:00,FC Copenhagen,Vejle,,,,1.26,6,12,1.23,5.68,9.48,,,,,,
+China,Super League,25/04/2026,12:00,Chengdu Rongcheng,Zhejiang Professional,,,,1.49,4.75,6.5,1.44,4.38,5.78,,,,1.42,4.75,6
+China,Super League,25/04/2026,12:35,Beijing Guoan,Tianjin Jinmen Tiger,,,,1.44,4.75,6.5,1.41,4.44,6.1,,,,1.42,4.33,6.5
+China,Super League,25/04/2026,13:00,Shanghai Port,Wuhan Three Towns,,,,1.68,4.2,5.25,1.61,3.89,4.53,,,,1.62,4,4.75
+China,Super League,26/04/2026,10:00,Qingdao Hainiu,Shandong Taishan,,,,4,3.8,1.84,3.74,3.68,1.78,,,,4,3.8,1.76
+China,Super League,26/04/2026,12:00,Chongqing Tonglianglong,Qingdao West Coast,,,,1.83,3.45,4.35,1.78,3.37,4.22,,,,1.79,3.4,4.33
+China,Super League,26/04/2026,12:00,Shenzhen Xinpengcheng,Liaoning Tieren,,,,2.5,3.4,2.8,2.41,3.28,2.66,,,,2.45,3.4,2.7
+China,Super League,26/04/2026,12:35,Dalian Yingbo,Yunnan Yukun,,,,2,3.6,4.2,1.9,3.36,3.72,,,,1.91,3.3,3.9
+China,Super League,26/04/2026,13:00,Henan Songshan Longmen,Shanghai Shenhua,,,,4,3.5,2.05,3.49,3.33,1.97,,,,3.7,3.5,1.91
+Brazil,Serie A,25/04/2026,22:30,Bahia,Santos,,,,1.8,3.75,5,1.74,3.56,4.47,,,,1.71,3.6,5
+Brazil,Serie A,25/04/2026,22:30,Botafogo RJ,Internacional,,,,2.6,3.2,3.05,2.49,3.04,2.85,,,,2.57,3,2.85
+Brazil,Serie A,25/04/2026,22:30,Remo,Cruzeiro,,,,3.5,3.5,2.16,3.32,3.38,2.07,,,,3.4,3.5,2.1
+Brazil,Serie A,26/04/2026,01:00,Sao Paulo,Mirassol,,,,1.95,3.75,4.3,1.84,3.51,3.98,,,,1.86,3.75,3.8
+Brazil,Serie A,26/04/2026,20:00,Corinthians,Vasco,,,,2.05,3.6,3.8,2.01,3.33,3.56,,,,2.01,3.6,3.5
+Brazil,Serie A,26/04/2026,20:00,Gremio,Coritiba,,,,2,3.4,4.4,1.89,3.31,4.04,,,,1.91,3.4,4.1
+Brazil,Serie A,26/04/2026,22:30,Athletico-PR,Vitoria,,,,1.73,3.6,5.5,1.67,3.51,5.13,,,,1.66,3.6,5.25
+Brazil,Serie A,26/04/2026,22:30,Bragantino,Palmeiras,,,,3.2,3.33,2.33,3.03,3.25,2.25,,,,3.2,3.3,2.25
+Brazil,Serie A,27/04/2026,00:30,Atletico-MG,Flamengo RJ,,,,4,3.4,2.05,3.7,3.28,1.98,,,,4,3.4,1.96
+Brazil,Serie A,27/04/2026,00:30,Fluminense,Chapecoense-SC,,,,1.31,5.5,11.5,1.27,5.22,9.83,,,,1.27,5.5,10
+Austria,Bundesliga,24/04/2026,18:30,BW Linz,Altach,,,,2.23,3.3,3.6,2.11,3.17,3.32,,,,2.01,3.25,3.6
+Austria,Bundesliga,25/04/2026,16:00,Wolfsberger AC,Grazer AK,,,,2.3,3.4,3.15,2.2,3.27,2.99,,,,2.25,3.4,3.1
+Austria,Bundesliga,25/04/2026,16:00,Tirol,Ried,,,,2.95,3.3,2.45,2.81,3.2,2.35,,,,2.85,3.3,2.35
+Austria,Bundesliga,26/04/2026,13:30,Hartberg,LASK,,,,5,4.33,1.7,4.55,3.89,1.62,,,,4.75,4.33,1.57
+Austria,Bundesliga,26/04/2026,13:30,SK Rapid,Salzburg,,,,3.6,3.7,2.07,3.28,3.56,1.97,,,,3.5,3.6,1.96
+Austria,Bundesliga,26/04/2026,16:00,Sturm Graz,Austria Vienna,,,,2.4,3.6,3.1,2.2,3.37,2.92,,,,2.1,3.6,3.1
+Argentina,Liga Profesional,24/04/2026,21:00,Dep. Riestra,Independiente,,,,3.8,2.88,2.3,3.61,2.8,2.23,,,,3.7,2.85,2.2
+Argentina,Liga Profesional,24/04/2026,23:15,Lanus,Central Cordoba,,,,1.52,4,7.5,1.49,3.9,6.92,,,,1.46,4,7
+Argentina,Liga Profesional,24/04/2026,23:15,Estudiantes Rio Cuarto,Rosario Central,,,,4.1,3.25,2.05,3.88,3.12,2.03,,,,3.75,3.25,2.01
+Argentina,Liga Profesional,25/04/2026,01:30,Racing Club,Barracas Central,,,,1.5,3.9,8,1.48,3.82,7.42,,,,1.46,3.9,7.5
+Argentina,Liga Profesional,25/04/2026,01:30,Platense,San Lorenzo,,,,2.5,2.85,3.45,2.44,2.77,3.33,,,,2.45,2.75,3.4
+Argentina,Liga Profesional,25/04/2026,21:00,Estudiantes L.P.,Talleres Cordoba,,,,2.25,3,3.6,2.23,2.99,3.47,,,,2.2,3,3.6
+Argentina,Liga Profesional,25/04/2026,23:15,Sarmiento Junin,Tigre,,,,3.4,2.88,2.5,3.22,2.82,2.48,,,,3.4,2.75,2.45
+Argentina,Liga Profesional,26/04/2026,01:30,River Plate,Aldosivi,,,,1.34,4.75,12,1.32,4.54,10.7,,,,1.3,4.5,12
+Argentina,Liga Profesional,26/04/2026,19:00,Ind. Rivadavia,Gimnasia Mendoza,,,,1.84,3.3,5.25,1.8,3.17,5.01,,,,1.76,3.2,5.25
+Argentina,Liga Profesional,26/04/2026,21:30,Belgrano,Gimnasia L.P.,,,,1.83,3.3,5.75,1.81,3.23,4.85,,,,1.76,3.1,5.75
+Argentina,Liga Profesional,26/04/2026,21:30,Newells Old Boys,Instituto,,,,2.95,3.1,2.58,2.89,3.06,2.52,,,,2.85,3.1,2.5
+Argentina,Liga Profesional,27/04/2026,00:00,Atl. Tucuman,Banfield,,,,2.1,3.25,4,2.01,3.15,3.68,,,,2.01,3.1,3.7
+Argentina,Liga Profesional,27/04/2026,22:45,Velez Sarsfield,Union de Santa Fe,,,,2.2,3.1,3.8,2.12,3.03,3.53,,,,2.15,3.1,3.5
+Argentina,Liga Profesional,28/04/2026,01:00,Huracan,Argentinos Jrs,,,,2.94,2.88,2.75,2.85,2.81,2.62,,,,2.85,2.7,2.65
