@@ -1,106 +1,29 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Argentina,Liga Profesional,09/05/2026,20:30,Talleres Cordoba,Belgrano,,,,2.38,3.1,3.65,2.25,2.97,3.33,2.44,3,3.45,2.35,2.85,3.4
-Argentina,Liga Profesional,09/05/2026,23:00,Boca Juniors,Huracan,,,,1.85,3.25,5,1.79,3.16,4.76,1.82,3.05,5.4,1.81,3.25,5
-Argentina,Liga Profesional,10/05/2026,01:30,Argentinos Jrs,Lanus,,,,1.95,3.4,4.4,1.89,3.2,4.16,1.94,3.1,4.6,1.91,3.2,4.33
-Argentina,Liga Profesional,10/05/2026,01:30,Ind. Rivadavia,Union de Santa Fe,,,,2.4,3.2,3.3,2.34,3.06,3.04,2.32,3.1,3.45,2.32,3,3.3
-Argentina,Liga Profesional,10/05/2026,19:00,Rosario Central,Independiente,,,,2.37,3.1,3.5,2.26,2.96,3.29,2.18,2.96,3.85,2.25,3,3.5
-Argentina,Liga Profesional,10/05/2026,21:00,Estudiantes L.P.,Racing Club,,,,2.3,3.2,3.4,2.23,3.08,3.24,2.36,3,3.55,2.25,3.1,3.4
-Argentina,Liga Profesional,10/05/2026,23:00,River Plate,San Lorenzo,,,,1.65,3.6,6.5,1.61,3.5,5.79,1.59,3.5,7,1.57,3.6,6
-Argentina,Liga Profesional,11/05/2026,01:30,Velez Sarsfield,Gimnasia L.P.,,,,1.85,3.5,5.4,1.77,3.31,4.64,1.86,3.25,5,1.81,3.2,5
-Austria,Bundesliga,09/05/2026,16:00,Grazer AK,Altach,,,,2.38,3.4,3.2,2.24,3.16,3.03,2.3,3.2,3.35,2.2,3.4,3.1
-Austria,Bundesliga,09/05/2026,16:00,Ried,Wolfsberger AC,,,,2.42,3.5,3,2.27,3.3,2.86,2.4,3.5,3.05,2.25,3.4,3
-Austria,Bundesliga,09/05/2026,16:00,Tirol,BW Linz,,,,2.75,3.3,2.6,2.64,3.19,2.5,2.76,3.35,2.66,2.65,3.3,2.57
-Austria,Bundesliga,10/05/2026,16:00,Hartberg,Sturm Graz,,,,4.33,4,1.96,3.92,3.61,1.79,4.4,3.65,1.88,4.2,3.8,1.71
-Austria,Bundesliga,10/05/2026,16:00,LASK,Salzburg,,,,2.9,3.75,2.4,2.66,3.55,2.29,2.78,3.7,2.38,2.75,3.6,2.3
-Austria,Bundesliga,10/05/2026,16:00,SK Rapid,Austria Vienna,,,,2.22,3.5,3.3,2.12,3.35,3.07,2.24,3.4,3.15,2.15,3.4,3.2
-Brazil,Serie A Betano,09/05/2026,20:00,Coritiba,Internacional,,,,2.7,3.33,2.7,2.61,3.16,2.62,2.86,3.25,2.78,2.7,3.2,2.65
-Brazil,Serie A Betano,09/05/2026,22:00,Fluminense,Vitoria,,,,1.51,4.33,7.3,1.45,4.06,6.8,1.52,4.3,7.6,1.45,4.2,7
-Brazil,Serie A Betano,10/05/2026,01:00,Bahia,Cruzeiro,,,,2.1,3.5,3.7,2.03,3.34,3.47,2.18,3.4,3.75,2.01,3.4,3.7
-Brazil,Serie A Betano,10/05/2026,20:00,Atletico-MG,Botafogo RJ,,,,2.16,3.4,3.4,2.1,3.31,3.31,2.2,3.45,3.35,2.1,3.4,3.4
-Brazil,Serie A Betano,10/05/2026,20:00,Remo,Palmeiras,,,,4.5,3.8,1.8,4.3,3.62,1.75,4.5,3.8,1.86,4.5,3.6,1.76
-Brazil,Serie A Betano,10/05/2026,22:30,Corinthians,Sao Paulo,,,,2.2,3.2,3.66,2.12,3.06,3.55,2.22,3.1,3.9,2.1,3.1,3.6
-Brazil,Serie A Betano,10/05/2026,22:30,Mirassol,Chapecoense-SC,,,,1.53,4.33,6.5,1.48,4.15,6.18,1.5,4.3,7.4,1.46,4.1,6.5
-Brazil,Serie A Betano,10/05/2026,22:30,Santos,Bragantino,,,,2.28,3.4,3.3,2.19,3.26,3.14,2.24,3.5,3.35,2.2,3.2,3.3
-Brazil,Serie A Betano,10/05/2026,23:30,Gremio,Flamengo RJ,,,,4,3.66,1.95,3.82,3.44,1.89,4.1,3.55,1.96,4,3.6,1.86
-Brazil,Serie A Betano,11/05/2026,00:30,Vasco,Athletico-PR,,,,2,3.5,4.1,1.93,3.32,3.79,1.94,3.45,4.3,1.86,3.5,4.1
-China,Super League,09/05/2026,12:35,Shanghai Shenhua,Chongqing Tonglianglong,,,,1.47,4.75,7.2,1.41,4.35,6.43,1.48,4.7,7.6,1.39,4.5,7
-China,Super League,09/05/2026,13:00,Chengdu Rongcheng,Henan Songshan Longmen,,,,1.55,4.75,5.75,1.51,4.18,5.29,1.53,4.6,6,1.46,4.5,5.75
-China,Super League,10/05/2026,10:30,Qingdao West Coast,Wuhan Three Towns,,,,2,3.4,3.8,1.94,3.33,3.6,2.02,3.3,3.8,1.96,3.4,3.75
-China,Super League,10/05/2026,11:00,Shenzhen Xinpengcheng,Shandong Taishan,,,,3.6,3.8,1.96,3.41,3.64,1.91,3.45,3.8,1.97,3.4,3.8,1.91
-China,Super League,10/05/2026,12:00,Liaoning Tieren,Yunnan Yukun,,,,2.6,3.75,2.5,2.46,3.67,2.39,2.36,2.6,2.06,2.45,3.75,2.4
-China,Super League,10/05/2026,12:35,Beijing Guoan,Shanghai Port,,,,1.72,4,4.55,1.66,3.9,4.28,1.37,2.7,3,1.66,4,4.5
-China,Super League,10/05/2026,12:35,Zhejiang Professional,Tianjin Jinmen Tiger,,,,1.75,4,4.5,1.7,3.7,4.33,1.72,3.9,4.8,1.66,3.9,4.5
-China,Super League,10/05/2026,13:00,Qingdao Hainiu,Dalian Yingbo,,,,2.75,3.6,2.65,2.49,3.43,2.5,2.56,3.6,2.66,2.4,3.6,2.65
-Denmark,Superliga,08/05/2026,18:00,Viborg,Sonderjyske,,,,1.73,4.33,4.2,1.67,4.09,3.98,1.78,4.5,4.4,1.62,4.33,4.2
-Denmark,Superliga,10/05/2026,13:00,Nordsjaelland,Midtjylland,,,,3.05,3.8,2.15,2.91,3.69,2.08,3,3.85,2.18,2.82,3.8,2.15
-Denmark,Superliga,10/05/2026,13:00,Vejle,Fredericia,,,,3.1,3.8,2.2,2.91,3.55,2.13,3.05,3.9,2.2,3.1,3.5,2.15
-Denmark,Superliga,10/05/2026,15:00,Silkeborg,FC Copenhagen,,,,4.5,4.2,1.77,4.02,3.95,1.69,4.1,4.2,1.79,4.2,4,1.68
-Denmark,Superliga,10/05/2026,17:00,Brondby,Aarhus,,,,2.95,3.6,2.3,2.81,3.48,2.21,3.05,3.75,2.3,2.82,3.6,2.25
-Denmark,Superliga,11/05/2026,18:00,Randers FC,Odense,,,,2.23,3.6,3.1,2.16,3.48,2.89,2.22,3.7,3.1,2.15,3.5,3.1
-Finland,Veikkausliiga,08/05/2026,16:00,Ilves,AC Oulu,,,,2.63,3.55,2.55,2.52,3.42,2.43,2.78,3.65,2.6,2.6,3.25,2.45
-Finland,Veikkausliiga,08/05/2026,16:00,TPS,HJK,,,,4.75,4,1.67,4.53,3.81,1.64,5.1,4.2,1.73,4.5,3.9,1.67
-Finland,Veikkausliiga,08/05/2026,18:00,KuPS,SJK,,,,1.65,4,4.75,1.61,3.89,4.58,1.7,4.3,5.1,1.65,3.9,4.5
-Finland,Veikkausliiga,09/05/2026,13:00,Inter Turku,Jaro,,,,1.5,4.33,6.5,1.46,4.05,6.1,1.5,4.4,7.4,1.45,3.8,6.5
-Finland,Veikkausliiga,09/05/2026,15:00,VPS,Gnistan,,,,1.93,3.6,3.75,1.89,3.51,3.51,2,3.7,3.9,1.85,3.4,3.75
-Finland,Veikkausliiga,10/05/2026,13:00,Lahti,Mariehamn,,,,1.61,3.8,5.75,1.57,3.71,5.35,1.55,3.9,6,1.55,3.7,5.75
-Ireland,Premier Division,08/05/2026,19:45,Drogheda,Derry City,,,,3.33,3.3,2.3,3.15,3.14,2.12,3.55,3.35,2.28,3.2,3.1,2.15
-Ireland,Premier Division,08/05/2026,19:45,Dundalk,Bohemians,,,,2.6,3.75,2.55,2.54,3.39,2.45,2.74,3.6,2.66,2.6,3.3,2.5
-Ireland,Premier Division,08/05/2026,19:45,Galway,Shamrock Rovers,,,,3.85,3.5,1.97,3.62,3.29,1.9,4.1,3.5,2.04,3.6,3.3,1.95
-Ireland,Premier Division,08/05/2026,19:45,Shelbourne,Sligo Rovers,,,,1.48,4.5,6.75,1.43,4.08,6.17,1.51,4.5,7.4,1.48,4.1,6
-Ireland,Premier Division,08/05/2026,20:00,St. Patricks,Waterford,,,,1.23,7,12.5,1.2,5.72,10.53,1.24,7,13,1.2,5.75,10
-Mexico,Liga MX,10/05/2026,02:07,Guadalajara Chivas,Tigres UANL,,,,2.15,3.65,3.55,2.01,3.5,3.22,2.14,3.5,3.35,2.05,3.5,3.4
-Mexico,Liga MX,10/05/2026,04:15,Cruz Azul,Atlas,,,,1.44,5,7.4,1.39,4.61,6.38,1.43,4.9,7.8,1.39,5,6.5
-Mexico,Liga MX,11/05/2026,00:00,Pachuca,Toluca,,,,3.4,3.75,2.18,3.11,3.58,2.03,3.3,3.75,2.08,3.4,3.75,2.01
-Mexico,Liga MX,11/05/2026,02:15,UNAM Pumas,Club America,,,,2.85,3.6,2.5,2.69,3.39,2.33,2.86,3.55,2.38,2.85,3.5,2.3
-Norway,Eliteserien,08/05/2026,18:00,HamKam,Valerenga,,,,2.88,3.65,2.35,2.71,3.5,2.27,2.96,3.8,2.42,2.88,3.6,2.3
-Norway,Eliteserien,09/05/2026,13:00,Sarpsborg 08,Fredrikstad,,,,2.1,3.8,3.25,2.01,3.64,3.13,2.1,3.95,3.3,2.05,3.75,3.25
-Norway,Eliteserien,10/05/2026,13:30,Rosenborg,Lillestrom,,,,3,3.5,2.35,2.74,3.46,2.28,3,3.7,2.38,2.88,3.5,2.35
-Norway,Eliteserien,10/05/2026,16:00,KFUM Oslo,Viking,,,,4.5,4.5,1.71,4.22,4.11,1.63,4.2,4.4,1.7,4.2,4.5,1.67
-Norway,Eliteserien,10/05/2026,16:00,Sandefjord,Kristiansund,,,,1.7,4.2,5.1,1.62,3.98,4.5,1.66,4.2,4.7,1.65,4.1,4.75
-Norway,Eliteserien,10/05/2026,16:00,Tromso,Molde,,,,2.05,3.6,3.6,1.94,3.5,3.42,2.06,3.55,3.65,2,3.5,3.6
-Poland,Ekstraklasa,08/05/2026,17:00,Rakow,Korona Kielce,,,,1.81,3.75,4.2,1.76,3.59,4.01,1.85,3.85,4.5,1.75,3.5,4.2
-Poland,Ekstraklasa,08/05/2026,19:30,Lech Poznan,Arka Gdynia,,,,1.41,5.5,7.5,1.36,4.8,6.72,1.4,5.4,8.6,1.36,4.75,6.5
-Poland,Ekstraklasa,09/05/2026,13:45,Widzew Lodz,Lechia Gdansk,,,,2,3.55,3.75,1.94,3.4,3.49,2,3.5,3.7,1.95,3.3,3.6
-Poland,Ekstraklasa,09/05/2026,16:30,Jagiellonia,Pogon Szczecin,,,,1.89,4,4,1.81,3.73,3.62,1.86,4,3.8,1.8,3.7,3.8
-Poland,Ekstraklasa,09/05/2026,19:15,Gornik Zabrze,Zaglebie,,,,1.69,3.8,5,1.65,3.59,4.75,1.66,3.65,5.6,1.65,3.5,5
-Poland,Ekstraklasa,10/05/2026,11:15,Piast Gliwice,GKS Katowice,,,,2.16,3.6,3.4,2.06,3.46,3.09,2.16,3.7,3.15,2.1,3.4,3.1
-Poland,Ekstraklasa,10/05/2026,13:45,Wisla Plock,Motor Lublin,,,,2.38,3.5,3,2.24,3.39,2.84,2.1,3.1,2.78,2.2,3.4,3
-Poland,Ekstraklasa,10/05/2026,16:30,Termalica B-B.,Legia,,,,4.75,4,1.72,4.38,3.78,1.66,5,4.1,1.67,4.5,3.8,1.65
-Poland,Ekstraklasa,11/05/2026,18:00,Cracovia,Radomiak Radom,,,,2.02,3.5,3.9,1.92,3.36,3.58,,,,1.9,3.3,3.9
-Romania,Superliga,08/05/2026,16:00,UTA Arad,Csikszereda M. Ciuc,,,,1.93,3.5,4.1,1.87,3.29,3.8,1.98,3.5,4.2,1.85,3.2,4
-Romania,Superliga,08/05/2026,19:00,CFR Cluj,Univ. Craiova,,,,2.95,3.25,2.66,2.68,3.06,2.48,2.82,3.25,2.8,2.55,3,2.5
-Romania,Superliga,09/05/2026,16:00,Otelul,Farul Constanta,,,,2.28,3.3,3.2,2.18,3.21,3.03,2.28,3.25,3.3,2.15,3.1,3.2
-Romania,Superliga,09/05/2026,19:00,U. Cluj,FC Rapid Bucuresti,,,,1.82,4,4.33,1.77,3.49,4.04,1.87,3.75,4.2,1.8,3.3,4.33
-Romania,Superliga,10/05/2026,14:00,FC Botosani,Petrolul,,,,2.28,3.25,3.4,2.15,3.09,3.19,2.2,2.86,3.15,2.1,3.1,3.25
-Romania,Superliga,10/05/2026,17:00,Dinamo Bucuresti,FC Arges,,,,1.68,3.75,5.75,1.6,3.47,5.3,1.63,3.6,6.4,1.62,3.4,5.25
-Romania,Superliga,11/05/2026,16:00,Metaloglobus Bucharest,FC Hermannstadt,,,,6.4,4.2,1.62,5.63,3.81,1.51,4.2,3,1.58,5.75,3.7,1.5
-Romania,Superliga,11/05/2026,19:00,FCSB,Unirea Slobozia,,,,1.25,6.5,12.5,1.23,5.49,9.79,1.25,4.5,1.16,1.22,5.5,9
-Sweden,Allsvenskan,08/05/2026,18:00,Elfsborg,Brommapojkarna,,,,2.02,3.4,3.8,1.96,3.32,3.57,2.06,3.45,4.1,1.91,3.4,3.8
-Sweden,Allsvenskan,09/05/2026,14:00,Degerfors,Mjallby,,,,3.95,3.4,2.1,3.58,3.27,1.97,3.95,3.5,2.1,3.6,3.3,2.01
-Sweden,Allsvenskan,09/05/2026,14:00,Goteborg,Hammarby,,,,5.1,4,1.7,4.55,3.84,1.64,5.1,4.1,1.73,5,3.75,1.62
-Sweden,Allsvenskan,09/05/2026,14:00,Vasteras SK,GAIS,,,,3.33,3.4,2.2,3.14,3.29,2.13,3.4,3.5,2.24,3.25,3.3,2.15
-Sweden,Allsvenskan,10/05/2026,13:00,AIK,Djurgarden,,,,2.71,3.45,2.65,2.59,3.26,2.52,2.8,3.45,2.62,2.65,3.3,2.5
-Sweden,Allsvenskan,10/05/2026,13:00,Kalmar,Halmstad,,,,1.8,3.65,5.3,1.72,3.47,4.56,1.84,3.5,4.9,1.68,3.6,4.75
-Sweden,Allsvenskan,10/05/2026,15:30,Hacken,Malmo FF,,,,2.43,3.6,2.83,2.33,3.44,2.69,2.42,3.75,2.9,2.35,3.5,2.7
-Sweden,Allsvenskan,11/05/2026,18:00,Sirius,Orgryte,,,,1.27,6.5,10.8,1.23,5.91,9.02,1.28,6.4,9.8,1.24,6.25,8.5
-Switzerland,Super League,09/05/2026,17:00,Winterthur,Lausanne,,,,3.9,4,1.83,3.67,3.91,1.8,4.1,4.3,1.82,3.9,4,1.79
-Switzerland,Super League,09/05/2026,17:00,Zurich,Grasshoppers,,,,2.38,3.5,2.9,2.27,3.45,2.76,2.4,3.7,2.84,2.35,3.5,2.7
-Switzerland,Super League,09/05/2026,19:30,Luzern,Servette,,,,2.1,4,3.2,2.04,3.73,3.02,2.1,4,3.15,2.01,3.8,3.2
-Switzerland,Super League,10/05/2026,13:00,Lugano,St. Gallen,,,,2.23,3.75,3,2.18,3.58,2.82,2.24,3.85,2.96,2.15,3.7,2.85
-Switzerland,Super League,10/05/2026,15:30,Sion,Thun,,,,1.81,4,4.33,1.73,3.86,3.93,1.8,4.3,4.3,1.68,4,4.2
-Switzerland,Super League,10/05/2026,15:30,Young Boys,Basel,,,,1.93,4.2,3.4,1.89,3.96,3.25,1.91,4,3.1,1.86,4.2,3.3
-USA,MLS,09/05/2026,18:00,Toronto FC,Inter Miami,,,,3.65,4.25,1.98,3.39,3.92,1.86,3.65,4.4,1.94,3.4,4.2,1.86
-USA,MLS,09/05/2026,19:30,Chicago Fire,New York Red Bulls,,,,1.58,4.75,5.1,1.54,4.42,4.79,1.59,4.8,5.4,1.51,4.75,5
-USA,MLS,09/05/2026,21:30,CF Montreal,Orlando City,,,,2,4,3.85,1.86,3.83,3.48,1.98,4.1,3.7,1.86,3.9,3.6
-USA,MLS,10/05/2026,00:30,Atlanta Utd,Los Angeles Galaxy,,,,2.5,3.6,2.78,2.37,3.49,2.66,2.52,3.65,2.88,2.4,3.5,2.7
-USA,MLS,10/05/2026,00:30,Charlotte,FC Cincinnati,,,,2.15,3.8,3.2,2.08,3.69,3.01,2.16,4,3.25,2.1,3.6,3.2
-USA,MLS,10/05/2026,00:30,New England Revolution,Philadelphia Union,,,,2.66,3.45,2.65,2.59,3.3,2.52,2.74,3.5,2.72,2.57,3.4,2.55
-USA,MLS,10/05/2026,01:30,FC Dallas,Real Salt Lake,,,,2.38,3.8,3,2.18,3.64,2.84,2.26,3.9,3.1,2.15,3.8,3
-USA,MLS,10/05/2026,02:15,Nashville SC,DC United,,,,1.57,4.2,6.4,1.52,4,5.81,1.57,4.2,6.8,1.49,4.2,6
-USA,MLS,10/05/2026,02:30,Colorado Rapids,St. Louis City,,,,2.04,3.9,3.5,1.97,3.71,3.26,2.02,3.9,3.65,1.91,3.9,3.5
-USA,MLS,10/05/2026,03:30,Portland Timbers,Sporting Kansas City,,,,1.55,4.75,5.75,1.5,4.56,5.15,1.56,4.9,5.7,1.49,4.75,5
-USA,MLS,10/05/2026,03:30,San Jose Earthquakes,Vancouver Whitecaps,,,,3,3.75,2.4,2.78,3.52,2.27,3.1,3.7,2.36,3,3.4,2.3
-USA,MLS,10/05/2026,03:30,Seattle Sounders,San Diego FC,,,,1.76,4,4.5,1.71,3.83,4.16,1.78,4.1,4.5,1.71,3.9,4.33
-USA,MLS,10/05/2026,21:30,New York City,Columbus Crew,,,,2.5,3.6,2.8,2.36,3.46,2.66,2.48,3.55,2.72,2.4,3.6,2.65
-USA,MLS,11/05/2026,00:00,Minnesota United,Austin FC,,,,1.74,4.2,4.75,1.66,3.84,4.45,1.7,4.1,5,1.66,4,4.75
-USA,MLS,11/05/2026,02:00,Los Angeles FC,Houston Dynamo,,,,1.64,4.35,5.25,1.59,4.06,4.77,1.64,4.2,5.2,1.57,4.2,5
+Argentina,Liga Profesional,12/05/2026,23:00,Belgrano,Union de Santa Fe,,,,2.4,3.1,3.25,2.34,2.97,3.11,2.5,3.1,3.45,2.35,3,3.25
+Argentina,Liga Profesional,13/05/2026,01:30,Argentinos Jrs,Huracan,,,,1.91,3.25,4.9,1.83,3.12,4.65,1.92,3.25,5.2,1.86,3.1,4.75
+Argentina,Liga Profesional,13/05/2026,22:45,Rosario Central,Racing Club,,,,2.33,3.1,3.6,2.25,3.02,3.26,2.28,3.05,3.85,2.2,3,3.6
+Argentina,Liga Profesional,14/05/2026,01:30,River Plate,Gimnasia L.P.,,,,1.51,4.2,7.5,1.48,3.9,6.59,1.5,4,8,1.46,3.8,7.5
+Mexico,Liga MX,14/05/2026,03:00,Cruz Azul,Guadalajara Chivas,,,,2.28,3.75,3.4,2.09,3.44,3.12,1.91,2.8,3.3,2.1,3.4,3.4
+Mexico,Liga MX,15/05/2026,02:00,Pachuca,UNAM Pumas,,,,2.15,3.6,3.25,2.1,3.4,3.05,2.2,3.55,3.25,2.1,3.6,3.1
+Poland,Ekstraklasa,13/05/2026,17:00,Arka Gdynia,Gornik Zabrze,,,,3.6,3.5,2.15,3.35,3.24,2.05,3.75,3.3,2.06,3.5,3.25,2.05
+Poland,Ekstraklasa,13/05/2026,19:30,Rakow,Jagiellonia,,,,2.12,3.6,3.33,2.05,3.4,3.16,2.14,2.8,3.4,2.05,3.4,3.25
+Switzerland,Super League,12/05/2026,19:30,Grasshoppers,Winterthur,,,,1.96,3.8,3.85,1.9,3.63,3.45,2.06,3.85,3.65,1.96,3.8,3.4
+Switzerland,Super League,12/05/2026,19:30,Luzern,Zurich,,,,1.5,5,6.4,1.44,4.62,5.56,1.51,5.3,6.2,1.42,5,5.75
+Switzerland,Super League,12/05/2026,19:30,Servette,Lausanne,,,,1.87,4,4,1.82,3.8,3.59,1.89,4,4.1,1.79,3.9,3.8
+Switzerland,Super League,14/05/2026,15:30,Basel,St. Gallen,,,,2.45,4,2.65,2.36,3.72,2.52,2.46,4.1,2.56,2.45,3.6,2.55
+Switzerland,Super League,14/05/2026,15:30,Sion,Lugano,,,,2.15,3.6,3.3,2.07,3.47,3.12,2.08,3.6,3.35,2.05,3.5,3.3
+Switzerland,Super League,14/05/2026,15:30,Thun,Young Boys,,,,2.05,4,3.4,1.97,3.83,3.11,2.04,4.1,3.1,2.01,3.8,3.2
+USA,MLS,14/05/2026,00:15,Charlotte,New York City,,,,2.3,3.6,3.1,2.18,3.49,2.95,2.28,3.65,3.25,2.15,3.6,3
+USA,MLS,14/05/2026,00:30,CF Montreal,Portland Timbers,,,,1.98,3.95,3.6,1.91,3.76,3.36,2,4,3.7,1.86,3.75,3.6
+USA,MLS,14/05/2026,00:30,DC United,Chicago Fire,,,,2.95,3.5,2.5,2.69,3.4,2.38,2.9,3.55,2.6,2.7,3.4,2.4
+USA,MLS,14/05/2026,00:30,FC Cincinnati,Inter Miami,,,,3.1,4.1,2.17,2.89,3.95,2.06,3.15,4.3,2.12,3.1,4,2.01
+USA,MLS,14/05/2026,00:30,New England Revolution,Nashville SC,,,,2.9,3.55,2.42,2.76,3.37,2.34,2.94,3.55,2.5,2.82,3.4,2.35
+USA,MLS,14/05/2026,00:30,New York Red Bulls,Columbus Crew,,,,2.8,3.9,2.35,2.67,3.71,2.26,2.82,3.95,2.38,2.65,3.9,2.25
+USA,MLS,14/05/2026,00:30,Orlando City,Philadelphia Union,,,,3.25,3.7,2.2,3.01,3.54,2.12,3.15,3.75,2.28,3,3.7,2.1
+USA,MLS,14/05/2026,01:30,FC Dallas,Vancouver Whitecaps,,,,3.7,3.8,2.05,3.34,3.6,1.97,3.7,3.75,2.06,3.5,3.5,2.01
+USA,MLS,14/05/2026,01:30,Minnesota United,Colorado Rapids,,,,1.81,4,4.35,1.74,3.82,4.03,1.82,4,4.4,1.71,3.8,4.33
+USA,MLS,14/05/2026,01:30,Sporting Kansas City,Los Angeles Galaxy,,,,3.6,4,2,3.38,3.8,1.9,3.75,4.1,1.98,3.6,3.8,1.86
+USA,MLS,14/05/2026,01:30,St. Louis City,Los Angeles FC,,,,2.75,3.65,2.48,2.62,3.52,2.38,2.78,3.75,2.54,2.57,3.6,2.35
+USA,MLS,14/05/2026,02:30,Real Salt Lake,Houston Dynamo,,,,1.85,4,4.3,1.8,3.71,3.85,1.87,4,4.3,1.76,3.8,4
+USA,MLS,14/05/2026,02:30,San Diego FC,Austin FC,,,,1.68,4.3,5.1,1.63,4.1,4.41,1.72,4.3,4.6,1.66,4.2,4.2
+USA,MLS,14/05/2026,02:30,Seattle Sounders,San Jose Earthquakes,,,,2.08,3.8,3.5,1.96,3.68,3.32,1.98,4.1,3.75,1.91,3.7,3.5
