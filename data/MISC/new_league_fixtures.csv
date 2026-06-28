@@ -1,12 +1,20 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Finland,Veikkausliiga,23/06/2026,16:00,KuPS,Ilves,,,,1.66,4,4.75,1.61,3.8,4.56,1.68,4.1,5.2,1.62,3.8,4.75
-Finland,Veikkausliiga,23/06/2026,16:00,Lahti,TPS,,,,1.86,3.5,4.1,1.81,3.38,3.9,1.88,3.6,4.6,1.83,3.4,3.9
-Finland,Veikkausliiga,23/06/2026,16:00,VPS,AC Oulu,,,,2.45,3.3,2.88,2.35,3.25,2.7,2.44,3.35,3.1,2.4,3.2,2.7
-Finland,Veikkausliiga,23/06/2026,17:00,Inter Turku,SJK,,,,1.55,4.33,5.75,1.49,4.08,5.41,1.57,4.4,6.4,1.48,4,5.75
-Finland,Veikkausliiga,23/06/2026,17:00,Jaro,Gnistan,,,,3.1,3.5,2.2,2.96,3.35,2.15,3.35,3.6,2.2,3,3.4,2.15
-Finland,Veikkausliiga,23/06/2026,18:00,Mariehamn,HJK,,,,8,5.5,1.36,7.31,4.78,1.33,8.6,5.6,1.38,7.5,4.5,1.36
-Ireland,Premier Division,22/06/2026,19:45,Shelbourne,Bohemians,,,,2.66,3.3,2.7,2.59,3.12,2.55,2.84,3.25,2.74,2.6,3.2,2.5
-Ireland,Premier Division,22/06/2026,20:00,Shamrock Rovers,Derry City,,,,1.85,3.5,4.5,1.78,3.31,4.17,1.88,3.55,5.1,1.83,3.3,4.1
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
+China,Super League,26/06/2026,12:35,Qingdao Hainiu,Yunnan Yukun,,,,2.85,3.8,2.35,2.71,3.58,2.22,3,3.95,2.38,2.85,3.6,2.2
+China,Super League,27/06/2026,12:00,Liaoning Tieren,Shandong Taishan,,,,3,3.8,2.3,2.78,3.72,2.16,2.78,3.95,2.36,3,3.75,2.2
+China,Super League,27/06/2026,12:35,Henan Songshan Longmen,Shanghai Port,,,,2.2,3.4,3.35,2.12,3.35,3.1,2.26,3.55,3.35,2.2,3.4,3.2
+China,Super League,27/06/2026,12:35,Shenzhen Xinpengcheng,Chengdu Rongcheng,,,,4.4,3.95,1.76,4.03,3.8,1.71,4.4,3.95,1.85,4.1,3.8,1.71
+China,Super League,27/06/2026,13:00,Beijing Guoan,Wuhan Three Towns,,,,1.33,5.5,8.5,1.3,5.2,7.39,1.36,6,8.6,1.3,4.75,8.5
+China,Super League,27/06/2026,13:00,Chongqing Tonglianglong,Tianjin Jinmen Tiger,,,,1.92,3.25,4.2,1.89,3.15,4.04,1.99,3.35,4.4,1.91,3.1,4.2
+China,Super League,28/06/2026,11:00,Qingdao West Coast,Zhejiang Professional,,,,2.57,3.6,2.55,2.5,3.49,2.44,2.62,3.8,2.46,2.57,3.5,2.55
+China,Super League,28/06/2026,12:00,Dalian Yingbo,Shanghai Shenhua,,,,2.5,3.6,2.65,2.41,3.5,2.53,2.5,3.65,2.68,2.45,3.5,2.65
+Finland,Veikkausliiga,27/06/2026,12:00,Ilves,SJK,,,,2.3,3.75,2.95,2.19,3.57,2.72,2.32,3.85,2.86,2.2,3.5,2.88
+Finland,Veikkausliiga,27/06/2026,15:00,HJK,KuPS,,,,2.28,3.6,3,2.22,3.43,2.76,2.4,3.7,2.94,2.15,3.4,3
+Finland,Veikkausliiga,27/06/2026,15:00,Mariehamn,Inter Turku,,,,9.5,5.33,1.34,8.08,4.85,1.3,10.5,5.6,1.33,8.5,5,1.3
+Finland,Veikkausliiga,27/06/2026,17:00,Gnistan,VPS,,,,2.5,3.4,2.63,2.46,3.27,2.56,2.6,3.45,2.76,2.5,3.25,2.63
+Finland,Veikkausliiga,27/06/2026,17:00,TPS,Jaro,,,,2.28,3.6,3.1,2.13,3.38,2.96,2.2,3.65,3.3,2.1,3.4,3.1
+Finland,Veikkausliiga,27/06/2026,19:00,AC Oulu,Lahti,,,,2.02,3.5,3.6,1.94,3.4,3.39,2.06,3.65,3.7,1.95,3.5,3.4
+Ireland,Premier Division,26/06/2026,19:30,Shamrock Rovers,Galway,,,,1.45,4.5,7.5,1.41,4.21,6.48,1.46,5,8,1.42,4.1,7
+Ireland,Premier Division,26/06/2026,19:45,Derry City,Drogheda,,,,1.58,3.85,6,1.54,3.75,5.32,1.61,4.1,6.6,1.55,3.7,5.5
+Ireland,Premier Division,26/06/2026,19:45,Dundalk,Waterford,,,,1.57,4.4,5.6,1.51,4.18,4.97,1.63,4.5,5.3,1.53,4,5
+Ireland,Premier Division,26/06/2026,20:00,Bohemians,St. Patricks,,,,2.5,3.3,2.8,2.42,3.14,2.69,2.62,3.25,3,2.45,3.1,2.7
+Ireland,Premier Division,27/06/2026,19:45,Sligo Rovers,Shelbourne,,,,4.6,3.75,1.76,4.34,3.49,1.71,4.9,3.7,1.72,4.5,3.5,1.7
