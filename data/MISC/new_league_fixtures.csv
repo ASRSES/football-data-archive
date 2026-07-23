@@ -1,59 +1,30 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Brazil,Serie A,16/07/2026,23:30,Botafogo RJ,Santos,,,,2.13,3.56,3.82,2.06,3.44,3.52,2.14,3.65,3.8,2.01,3.5,3.5
-Brazil,Serie A,16/07/2026,23:30,Vitoria,Vasco,,,,2.5,3.45,3.23,2.32,3.29,3.09,2.42,3.45,3.25,2.32,3.3,3
-Brazil,Serie A,17/07/2026,23:30,Bahia,Chapecoense-SC,,,,1.46,5,7,1.44,4.65,6.46,1.48,5,7,1.39,5,6.5
-Brazil,Serie A,18/07/2026,00:00,Fluminense,Bragantino,,,,1.98,3.57,4.75,1.92,3.33,4.14,1.96,3.45,4.4,1.86,3.3,4.33
-Brazil,Serie A,18/07/2026,00:00,Mirassol,Gremio,,,,2.05,3.46,4.15,1.95,3.36,3.97,1.99,3.55,4.1,1.91,3.4,4
-China,Super League,17/07/2026,12:00,Qingdao West Coast,Chengdu Rongcheng,,,,4.38,4,1.8,4.1,3.81,1.75,4.3,4.1,1.77,4,4,1.71
-China,Super League,17/07/2026,12:35,Beijing Guoan,Liaoning Tieren,,,,1.4,5.2,7.5,1.37,4.92,6.82,1.43,5.3,7.2,1.37,5,6.5
-China,Super League,17/07/2026,12:35,Henan Songshan Longmen,Qingdao Hainiu,,,,1.42,5.04,7.65,1.39,4.71,6.89,1.44,5.2,7.6,1.39,4.75,6.5
-China,Super League,17/07/2026,13:00,Yunnan Yukun,Shanghai Port,,,,2.5,4,2.61,2.41,3.78,2.52,2.48,4.1,2.62,2.45,3.7,2.5
-China,Super League,18/07/2026,12:00,Chongqing Tonglianglong,Zhejiang Professional,,,,2.84,3.67,2.41,2.75,3.46,2.36,2.74,3.65,2.38,2.82,3.6,2.3
-China,Super League,18/07/2026,12:35,Dalian Yingbo,Shandong Taishan,,,,2.23,3.88,3.02,2.17,3.69,2.89,2.2,4,2.94,2.2,3.75,2.82
-China,Super League,18/07/2026,12:35,Shanghai Shenhua,Tianjin Jinmen Tiger,,,,1.45,4.9,7,1.41,4.62,6.46,1.44,4.9,6.6,1.37,4.75,7
-China,Super League,18/07/2026,13:00,Wuhan Three Towns,Shenzhen Xinpengcheng,,,,2.15,3.6,3.4,2.08,3.46,3.24,2.14,3.65,3.25,2.1,3.5,3.25
-Finland,Veikkausliiga,18/07/2026,13:00,HJK,VPS,,,,1.95,4.25,3.6,1.87,3.93,3.49,1.92,4.2,3.65,1.85,3.6,3.6
-Finland,Veikkausliiga,18/07/2026,15:00,AC Oulu,Gnistan,,,,2.25,3.7,3.18,2.15,3.45,3.06,2.2,3.6,3.25,2.1,3.3,3
-Finland,Veikkausliiga,18/07/2026,15:00,SJK,KuPS,,,,3.05,3.85,2.21,2.94,3.64,2.15,3.05,3.9,2.2,3,3.6,2.15
-Finland,Veikkausliiga,19/07/2026,16:30,Jaro,Inter Turku,,,,5.93,4.22,1.59,5.57,4.06,1.53,5.8,3.8,1.54,5.25,3.9,1.53
-Finland,Veikkausliiga,20/07/2026,16:00,TPS,Ilves,,,,2.65,3.7,2.56,2.58,3.44,2.48,2.56,3.15,2.48,2.55,3.4,2.5
-Finland,Veikkausliiga,20/07/2026,17:00,Mariehamn,Lahti,,,,5.4,4.35,1.61,5.08,4.1,1.57,5.6,3.75,1.58,5,4.1,1.57
-Mexico,Liga MX,17/07/2026,02:00,Necaxa,Atlante,,,,1.96,3.77,4,1.88,3.57,3.75,1.94,3.75,4,1.86,3.5,4
-Mexico,Liga MX,17/07/2026,04:10,Club Tijuana,Tigres UANL,,,,3.77,3.6,2.1,3.59,3.41,1.98,3.8,3.6,2.1,3.75,3.4,1.96
-Mexico,Liga MX,18/07/2026,02:00,Atl. San Luis,Cruz Azul,,,,4,3.7,1.9,3.84,3.57,1.86,4,3.8,1.89,4,3.7,1.86
-Mexico,Liga MX,18/07/2026,02:00,Club Leon,Atlas,,,,2.05,3.6,3.7,2,3.43,3.46,2.1,3.55,3.65,1.96,3.4,3.7
-Mexico,Liga MX,18/07/2026,04:00,Juarez,Puebla,,,,1.7,4.05,5.1,1.64,3.86,4.76,1.68,4,5,1.61,4,5
-Mexico,Liga MX,19/07/2026,00:00,UNAM Pumas,Pachuca,,,,2.41,3.55,3,2.33,3.33,2.86,2.36,3.55,2.96,2.3,3.4,3
-Mexico,Liga MX,19/07/2026,02:05,Monterrey,Santos Laguna,,,,1.55,4.65,5.5,1.51,4.39,5.18,1.57,4.6,5.5,1.49,4.5,5.5
-Mexico,Liga MX,19/07/2026,02:07,Guadalajara Chivas,Toluca,,,,2.25,3.65,3.2,2.19,3.42,3.07,2.22,3.15,3.1,2.15,3.5,3.2
-Mexico,Liga MX,19/07/2026,04:10,Queretaro,Club America,,,,3.78,3.6,2.02,3.59,3.42,1.96,3.7,3.5,2.02,3.7,3.6,1.96
-Norway,Eliteserien,16/07/2026,18:00,Valerenga,Aalesund,,,,1.75,4.41,4.61,1.7,4.12,4.29,1.76,4.5,4.6,1.7,4.1,4.33
-Norway,Eliteserien,17/07/2026,18:15,Bodo/Glimt,Fredrikstad,,,,1.18,8.98,16,1.15,8.12,12.81,1.18,9.2,18,1.17,8.5,12
-Norway,Eliteserien,18/07/2026,13:00,HamKam,Tromso,,,,3.65,3.35,2.28,3.43,3.13,2.18,3.6,3.15,2.3,3.4,3.3,2.2
-Norway,Eliteserien,18/07/2026,15:00,Kristiansund,Sarpsborg 08,,,,3.2,3.7,2.25,3.08,3.51,2.16,3.05,3.7,2.2,3.2,3.6,2.15
-Norway,Eliteserien,18/07/2026,15:00,Lillestrom,KFUM Oslo,,,,1.72,4.15,4.81,1.68,3.91,4.52,1.71,4,4.8,1.67,4,4.5
-Norway,Eliteserien,18/07/2026,15:00,Start,Rosenborg,,,,3.22,3.7,2.25,3.08,3.46,2.19,3.2,3.65,2.22,3.1,3.5,2.2
-Norway,Eliteserien,18/07/2026,17:00,Molde,Brann,,,,2.11,4,3.4,2.06,3.7,3.18,2.1,3.95,3.25,2.05,3.8,3.3
-Norway,Eliteserien,18/07/2026,17:00,Viking,Sandefjord,,,,1.32,6.23,9,1.29,5.75,8.3,1.33,6,9.2,1.29,5.75,9
-Romania,Superliga,17/07/2026,16:30,FC Voluntari,FC Botosani,,,,2.6,3.29,2.95,2.44,3.12,2.81,2.64,3.1,2.98,2.45,3,2.8
-Romania,Superliga,17/07/2026,19:30,FCSB,FC Arges,,,,1.63,4.19,5.7,1.6,3.98,4.77,1.63,4.1,5.7,1.57,4,4.75
-Romania,Superliga,18/07/2026,16:30,Otelul,CFR Cluj,,,,3.21,3.3,2.44,3.09,3.09,2.29,3.2,3.2,2.34,3,3.2,2.3
-Romania,Superliga,18/07/2026,19:15,Univ. Craiova,UTA Arad,,,,1.45,4.37,7.75,1.41,4.23,7.13,1.42,4.4,8.6,1.42,4.33,6.5
-Romania,Superliga,19/07/2026,15:00,U. Cluj,Farul Constanta,,,,1.8,3.75,4.7,1.74,3.53,4.41,1.79,3.35,4.8,1.7,3.5,4.5
-Romania,Superliga,19/07/2026,17:30,Petrolul,Dinamo Bucuresti,,,,3.99,3.3,2.2,3.64,3.07,2.08,3.8,2.88,2.06,3.4,3.1,2.15
-Romania,Superliga,20/07/2026,16:30,Corvinul,Csikszereda M. Ciuc,,,,2.25,3.35,3.39,2.17,3.21,3.26,1.04,1.02,1.04,2.1,3.25,3.1
-Romania,Superliga,20/07/2026,19:30,FC Rapid Bucuresti,Sepsi Sf. Gheorghe,,,,1.85,3.6,4.4,1.78,3.48,4.2,1.81,3.5,4.4,1.75,3.4,4
-Sweden,Allsvenskan,17/07/2026,18:00,Goteborg,Brommapojkarna,,,,1.95,3.95,3.9,1.88,3.74,3.75,1.98,4,3.95,1.86,3.75,3.75
-Sweden,Allsvenskan,17/07/2026,18:00,Mjallby,Vasteras SK,,,,1.84,4.18,4.6,1.8,3.87,3.96,1.86,4,4.2,1.76,3.75,4.2
-Sweden,Allsvenskan,18/07/2026,14:00,AIK,GAIS,,,,2.7,3.65,2.6,2.59,3.42,2.54,2.74,3.6,2.66,2.65,3.25,2.57
-Sweden,Allsvenskan,19/07/2026,15:30,Elfsborg,Sirius,,,,3.7,3.81,2.06,3.42,3.61,1.99,3.4,3.7,2,3.4,3.75,1.96
-Sweden,Allsvenskan,19/07/2026,15:30,Halmstad,Hacken,,,,5.5,4.69,1.6,4.93,4.36,1.57,5.1,4.5,1.61,5.5,4.2,1.51
-Sweden,Allsvenskan,19/07/2026,15:30,Hammarby,Degerfors,,,,1.28,6.08,12,1.26,5.57,10.43,1.28,6,11.5,1.24,5.5,11
-Sweden,Allsvenskan,20/07/2026,18:00,Kalmar,Malmo FF,,,,2.69,3.75,2.75,2.59,3.54,2.48,2.66,3.7,2.48,2.4,3.5,2.57
-Sweden,Allsvenskan,20/07/2026,18:00,Orgryte,Djurgarden,,,,7,5.17,1.44,6.51,4.8,1.41,7,5.1,1.42,6.5,4.5,1.37
-USA,MLS,17/07/2026,00:30,CF Montreal,Toronto FC,,,,2.12,3.91,3.49,2.04,3.7,3.31,2.14,3.95,3.35,2.05,3.7,3.3
-USA,MLS,17/07/2026,01:30,Chicago Fire,Vancouver Whitecaps,,,,2.86,3.9,2.4,2.75,3.69,2.32,2.88,4,2.42,2.65,3.9,2.3
-USA,MLS,17/07/2026,01:30,St. Louis City,Sporting Kansas City,,,,1.49,5.12,6.9,1.43,4.89,6.16,1.47,5.3,6.8,1.41,5,6
-USA,MLS,17/07/2026,03:30,Seattle Sounders,Portland Timbers,,,,1.52,5.1,6.03,1.47,4.81,5.65,1.52,5.3,6.2,1.45,5,5.5
-USA,MLS,18/07/2026,01:10,Nashville SC,Atlanta Utd,,,,1.51,4.75,6.85,1.46,4.46,6.19,1.5,4.8,7.2,1.45,4.75,5.75
-USA,MLS,18/07/2026,03:25,Los Angeles Galaxy,Los Angeles FC,,,,3.01,3.85,2.32,2.88,3.63,2.25,3.05,3.9,2.36,3,3.6,2.2
+Argentina,Liga Profesional,23/07/2026,23:30,Belgrano,Rosario Central,,,,2.46,2.88,3.3,2.41,2.8,3.15,2.54,2.8,3.4,2.45,2.85,3.2
+Argentina,Liga Profesional,23/07/2026,23:30,Sarmiento Junin,Argentinos Jrs,,,,4.75,3,2.05,4.11,2.92,2,4.9,3,2,4.75,3,1.96
+Argentina,Liga Profesional,24/07/2026,01:45,Defensa y Justicia,Aldosivi,,,,1.91,3.2,4.75,1.84,3.11,4.49,1.87,3.15,5.1,1.86,3.1,4.75
+Brazil,Serie A Betano,21/07/2026,23:30,Atletico-MG,Bahia,,,,2.15,3.5,3.66,2.05,3.31,3.41,2.18,3.55,3.8,2.05,3.3,3.6
+Brazil,Serie A Betano,22/07/2026,23:30,Coritiba,Palmeiras,,,,4.2,3.4,2,3.89,3.28,1.91,4.5,3.45,2,4.2,3.4,1.86
+Brazil,Serie A Betano,23/07/2026,01:30,Chapecoense-SC,Flamengo RJ,,,,7,4.4,1.48,6.78,4.2,1.43,8.2,4.5,1.49,7,4.33,1.45
+Brazil,Serie A Betano,23/07/2026,01:30,Internacional,Cruzeiro,,,,2.22,3.3,3.25,2.17,3.26,3.18,2.24,3.45,3.45,2.2,3.3,3.25
+Brazil,Serie A Betano,23/07/2026,01:30,Sao Paulo,Athletico-PR,,,,2,3.3,4.2,1.97,3.22,3.79,2.04,3.35,4,1.96,3.25,3.9
+Brazil,Serie A Betano,23/07/2026,23:30,Botafogo RJ,Vitoria,,,,1.75,3.75,5,1.71,3.62,4.5,1.75,3.75,5,1.71,3.6,5
+Brazil,Serie A Betano,23/07/2026,23:30,Corinthians,Remo,,,,1.53,4.2,7.5,1.48,3.99,6.42,1.54,4.2,8,1.46,4,7.5
+Mexico,Liga MX,22/07/2026,02:00,Cruz Azul,Puebla,,,,1.36,5.5,9,1.31,4.98,7.47,1.37,5.9,8.4,1.33,5.25,7
+Mexico,Liga MX,22/07/2026,04:05,Toluca,UNAM Pumas,,,,1.69,4.25,5.25,1.57,4,4.78,1.69,4.4,5.1,1.57,4.1,5
+Norway,Eliteserien,22/07/2026,18:00,Bodo/Glimt,HamKam,,,,1.13,11,19,1.11,8.37,14.81,1.13,10.5,21,1.13,8.5,19
+Norway,Eliteserien,22/07/2026,18:00,Lillestrom,Viking,,,,3.3,3.75,2.2,2.97,3.61,2.08,3.4,3.9,2.16,3.3,3.6,2.1
+USA,MLS,23/07/2026,00:30,Columbus Crew,New York City,,,,1.97,3.75,3.8,1.92,3.6,3.53,2.02,3.8,3.8,1.91,3.75,3.6
+USA,MLS,23/07/2026,00:30,FC Cincinnati,Vancouver Whitecaps,,,,4,4.2,1.87,3.65,4.06,1.77,4,4.3,1.85,4,4.2,1.71
+USA,MLS,23/07/2026,00:30,Inter Miami,Chicago Fire,,,,2.1,4.2,3.2,2.01,3.97,2.99,2.14,4.3,3.2,1.96,4.1,3.2
+USA,MLS,23/07/2026,00:30,New England Revolution,Toronto FC,,,,1.93,3.8,4.1,1.88,3.61,3.68,1.99,4,3.95,1.86,3.6,3.9
+USA,MLS,23/07/2026,00:30,Philadelphia Union,New York Red Bulls,,,,1.75,4.25,4.5,1.69,4.07,4.06,1.81,4.3,4.2,1.71,4,4.2
+USA,MLS,23/07/2026,01:15,Charlotte,Atlanta Utd,,,,1.95,3.75,4,1.89,3.58,3.64,1.99,3.9,4,1.86,3.6,3.9
+USA,MLS,23/07/2026,01:30,Houston Dynamo,DC United,,,,1.81,3.85,4.5,1.75,3.68,4.15,1.84,3.85,4.5,1.71,3.8,4.5
+USA,MLS,23/07/2026,01:30,Nashville SC,CF Montreal,,,,1.53,4.5,6.75,1.46,4.25,6.13,1.51,4.7,7,1.46,4.2,6.5
+USA,MLS,23/07/2026,01:30,Sporting Kansas City,Minnesota United,,,,3.6,4,2,3.32,3.8,1.93,3.5,4.2,2.06,3.6,3.8,1.91
+USA,MLS,23/07/2026,02:30,Austin FC,Seattle Sounders,,,,3.6,3.8,2.05,3.29,3.59,1.99,3.45,3.85,2.12,3.4,3.6,2.01
+USA,MLS,23/07/2026,02:30,Colorado Rapids,San Diego FC,,,,2.12,4,3.3,2.05,3.89,2.94,2.14,4.2,3.2,2.01,3.8,3.3
+USA,MLS,23/07/2026,03:30,Los Angeles FC,Real Salt Lake,,,,1.74,4.2,4.65,1.68,3.94,4.27,1.75,4.4,4.6,1.68,3.9,4.5
+USA,MLS,23/07/2026,03:30,Los Angeles Galaxy,St. Louis City,,,,1.95,4,3.75,1.91,3.77,3.4,2.04,4,3.55,1.91,3.75,3.6
+USA,MLS,23/07/2026,03:30,Portland Timbers,FC Dallas,,,,2.43,3.85,2.75,2.3,3.71,2.62,2.42,3.95,2.86,2.3,3.6,2.75
+USA,MLS,23/07/2026,03:30,San Jose Earthquakes,Orlando City,,,,1.53,5,5.5,1.49,4.68,5.03,1.56,5,5.5,1.46,4.75,5.5
