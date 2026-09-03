@@ -1,130 +1,26 @@
 ﻿Country,League,Date,Time,Home,Away,PSH,PSD,PSA,MaxH,MaxD,MaxA,AvgH,AvgD,AvgA,BFEH,BFED,BFEA,B365H,B365D,B365A
-Argentina,Liga Profesional,28/08/2026,23:00,Union de Santa Fe,Sarmiento Junin,,,,1.81,3.3,4.75,1.83,3.4,4.75,1.81,3.34,4.38,1.94,3.55,4.7
-Argentina,Liga Profesional,29/08/2026,01:30,Boca Juniors,Lanus,,,,1.79,3.3,5,1.84,3.3,5,1.81,3.21,4.64,1.89,3.4,5.2
-Argentina,Liga Profesional,29/08/2026,18:45,Dep. Riestra,Velez Sarsfield,,,,2.82,2.75,2.82,2.88,2.8,2.88,2.78,2.77,2.79,3,2.58,2.84
-Argentina,Liga Profesional,29/08/2026,21:00,Rosario Central,Gimnasia L.P.,,,,1.68,3.5,5.5,1.75,3.5,5.5,1.71,3.37,5.03,1.77,3.5,5.6
-Argentina,Liga Profesional,29/08/2026,23:00,Huracan,Estudiantes Rio Cuarto,,,,1.56,3.4,7.5,1.61,3.6,7.5,1.58,3.36,6.69,1.6,3.6,8
-Argentina,Liga Profesional,30/08/2026,01:30,Atl. Tucuman,Belgrano,,,,2.7,2.85,2.85,2.75,3,2.9,2.66,2.84,2.85,2.78,2.84,2.98
-Argentina,Liga Profesional,30/08/2026,01:30,Talleres Cordoba,Central Cordoba,,,,1.66,3.4,6.25,1.7,3.6,6.25,1.68,3.4,5.51,1.16,3.55,5.4
-Argentina,Liga Profesional,30/08/2026,19:00,Banfield,River Plate,,,,5,3.25,1.79,5,3.3,1.85,4.53,3.22,1.82,5.2,3.2,1.85
-Argentina,Liga Profesional,30/08/2026,21:00,Argentinos Jrs,Aldosivi,,,,1.39,4,10,1.41,4.2,10.25,1.38,4.05,8.88,1.4,4.3,11.5
-Argentina,Liga Profesional,30/08/2026,23:15,Independiente,Gimnasia Mendoza,,,,1.61,3.5,6.5,1.62,3.75,6.5,1.59,3.62,5.7,1.63,3.65,6.4
-Argentina,Liga Profesional,31/08/2026,01:30,Ind. Rivadavia,Racing Club,,,,2.15,3,3.75,2.2,3.13,3.75,2.14,3.04,3.47,2.22,2.7,3.6
-Argentina,Liga Profesional,31/08/2026,23:00,Defensa y Justicia,Platense,,,,2.2,2.85,3.8,2.3,3,3.8,2.26,2.85,3.43,2.34,2.94,3.5
-Argentina,Liga Profesional,31/08/2026,23:00,Estudiantes L.P.,Newells Old Boys,,,,1.66,3.4,5.75,1.73,3.5,5.75,1.68,3.37,5.15,1.09,1.09,1.06
-Argentina,Liga Profesional,01/09/2026,01:15,Instituto,San Lorenzo,,,,1.86,3.2,4.75,1.93,3.2,4.8,1.87,3.07,4.53,1.86,3,5.1
-Argentina,Liga Profesional,01/09/2026,01:15,Tigre,Barracas Central,,,,1.81,3,5.25,1.87,3.1,5.25,1.83,3.03,4.83,1.85,2.74,5.5
-Austria,Bundesliga,28/08/2026,18:30,A. Lustenau,Tirol,,,,1.91,3.7,3.6,2,3.75,3.6,1.96,3.63,3.38,2.1,3.8,3.7
-Austria,Bundesliga,29/08/2026,16:00,Grazer AK,Wolfsberger AC,,,,2.85,3.5,2.25,2.9,3.6,2.3,2.83,3.49,2.23,2.84,3.65,2.28
-Austria,Bundesliga,29/08/2026,18:30,LASK,Altach,,,,1.41,4.33,7,1.43,4.75,7.5,1.39,4.51,6.85,1.45,4.8,7.8
-Austria,Bundesliga,30/08/2026,16:00,Hartberg,Ried,,,,2.82,3.4,2.35,2.9,3.4,2.45,2.77,3.3,2.32,2.84,3,2.4
-Austria,Bundesliga,30/08/2026,16:00,SK Rapid,Sturm Graz,,,,2.1,3.6,3,2.2,3.8,3.1,2.13,3.61,2.91,2.24,3.8,3
-Austria,Bundesliga,30/08/2026,18:00,Salzburg,Austria Vienna,,,,1.37,5,6.5,1.42,5,6.6,1.38,4.74,6.45,1.44,5.1,7
-Brazil,Serie A,29/08/2026,22:30,Atletico-MG,Vitoria,,,,1.71,3.6,4.75,1.75,3.7,4.85,1.71,3.54,4.65,1.74,3.65,4.7
-Brazil,Serie A,30/08/2026,00:00,Sao Paulo,Bragantino,,,,2.15,3.4,3.3,2.25,3.4,3.3,2.17,3.23,3.24,2.22,3.2,3.55
-Brazil,Serie A,30/08/2026,01:20,Vasco,Cruzeiro,,,,2.2,3.3,3.25,2.25,3.3,3.3,2.2,3.25,3.15,2.26,3.3,3.4
-Brazil,Serie A,30/08/2026,15:00,Athletico-PR,Fluminense,,,,2.15,3.1,3.6,2.2,3.3,3.6,2.14,3.13,3.38,2.22,3.2,3.7
-Brazil,Serie A,30/08/2026,20:00,Corinthians,Santos,,,,1.81,3.4,4.75,1.88,3.4,4.75,1.84,3.3,4.28,1.88,3.1,4.6
-Brazil,Serie A,30/08/2026,20:00,Flamengo RJ,Botafogo RJ,,,,1.41,4.75,7,1.44,5,7.3,1.39,4.63,6.81,1.41,3.55,7.8
-Brazil,Serie A,30/08/2026,22:30,Gremio,Chapecoense-SC,,,,1.51,4,6.5,1.55,4.2,6.5,1.53,4,5.71,1.56,4.1,6.4
-Brazil,Serie A,30/08/2026,22:30,Mirassol,Palmeiras,,,,3.5,3.5,2.05,3.66,3.5,2.08,3.51,3.32,2.03,3.75,3.15,2.12
-Brazil,Serie A,30/08/2026,23:30,Bahia,Internacional,,,,1.86,3.5,4.2,1.88,3.6,4.2,1.84,3.55,3.91,1.88,3.6,4.1
-Brazil,Serie A,01/09/2026,00:00,Remo,Coritiba,,,,2.05,3.3,3.6,2.2,3.3,3.6,2.09,3.21,3.38,,,
-China,Super League,28/08/2026,12:35,Dalian Yingbo,Beijing Guoan,,,,3,3.8,2.05,3,4,2.12,2.92,3.81,2.05,3.15,4.2,2.18
-China,Super League,28/08/2026,12:35,Shanghai Shenhua,Shandong Taishan,,,,1.53,4.75,4.5,1.6,4.75,4.5,1.56,4.54,4.33,1.63,5,4.8
-China,Super League,28/08/2026,13:00,Shenzhen Xinpengcheng,Shanghai Port,,,,3,3.9,2.05,3,3.9,2.15,2.88,3.71,2.1,3.2,3.85,2.26
-China,Super League,29/08/2026,10:00,Qingdao Hainiu,Wuhan Three Towns,,,,2.7,3.5,2.35,2.75,3.5,2.45,2.61,3.45,2.4,2.78,3.65,2.44
-China,Super League,29/08/2026,12:00,Tianjin Jinmen Tiger,Qingdao West Coast,,,,1.96,3.5,3.8,1.98,3.5,3.9,1.93,3.35,3.68,1.98,3.4,3.95
-China,Super League,29/08/2026,12:00,Zhejiang Professional,Yunnan Yukun,,,,1.86,4,3.4,1.93,4,3.4,1.88,3.97,3.25,1.94,4.3,3.4
-China,Super League,29/08/2026,12:35,Chengdu Rongcheng,Liaoning Tieren,,,,1.3,5.5,7.5,1.33,5.75,8,1.29,5.45,7.53,1.36,6,8.2
-China,Super League,29/08/2026,13:00,Henan Songshan Longmen,Chongqing Tonglianglong,,,,1.61,3.8,5.25,1.62,3.9,5.25,1.59,3.77,5.05,,,
-Denmark,Superliga,28/08/2026,18:00,Horsens,Viborg,,,,4.5,3.75,1.68,4.5,3.9,1.78,4.26,3.79,1.7,4.5,4.1,1.8
-Denmark,Superliga,30/08/2026,13:00,Lyngby,Odense,,,,2.05,3.75,3.1,2.12,3.75,3.2,2.06,3.65,3.04,2.14,3.95,3.25
-Denmark,Superliga,30/08/2026,13:00,Silkeborg,Midtjylland,,,,6,4.75,1.45,6.4,4.75,1.49,5.74,4.52,1.45,5.9,4.9,1.49
-Denmark,Superliga,30/08/2026,15:00,Randers FC,Aarhus,,,,3.4,3.4,2.05,3.4,3.7,2.15,3.15,3.56,2.04,3.4,3.75,2.1
-Denmark,Superliga,30/08/2026,17:00,Nordsjaelland,Brondby,,,,1.96,3.9,3.3,2.08,3.9,3.3,2.01,3.72,3.13,2.06,3.9,3.35
-Denmark,Superliga,31/08/2026,18:00,FC Copenhagen,Sonderjyske,,,,1.37,4.75,7,1.38,5.25,8,1.34,4.91,7.01,1.39,5.1,7.4
-Finland,Veikkausliiga,31/08/2026,17:00,AC Oulu,SJK,,,,2,3.6,3.25,2.1,3.6,3.33,2,3.5,3.19,2.08,3.25,3.4
-Finland,Veikkausliiga,31/08/2026,17:00,Gnistan,TPS,,,,1.75,3.8,3.9,1.83,3.8,3.9,1.77,3.75,3.75,1.04,1.04,1.04
-Finland,Veikkausliiga,31/08/2026,17:00,Ilves,HJK,,,,3.5,3.9,1.83,3.75,3.9,1.88,3.54,3.74,1.82,3.9,4.2,1.83
-Finland,Veikkausliiga,31/08/2026,17:00,Inter Turku,KuPS,,,,2.25,3.3,3,2.25,3.4,3.1,2.21,3.25,2.96,2.36,3.25,3.1
-Finland,Veikkausliiga,31/08/2026,17:00,Mariehamn,Jaro,,,,2.15,3.4,2.88,2.26,3.5,2.9,2.2,3.41,2.84,1.27,1.33,1.41
-Finland,Veikkausliiga,31/08/2026,17:00,VPS,Lahti,,,,2.15,3.4,3,2.18,3.6,3.1,2.08,3.43,3.03,1.86,2.48,2.82
-Ireland,Premier Division,28/08/2026,19:45,Bohemians,Sligo Rovers,,,,1.22,6,10,1.25,6,12.5,1.22,5.57,10.08,1.28,6.4,13
-Ireland,Premier Division,28/08/2026,19:45,Galway,Shelbourne,,,,2.45,3.25,2.6,2.56,3.45,2.63,2.5,3.25,2.56,2.72,3.4,2.78
-Ireland,Premier Division,28/08/2026,19:45,St. Patricks,Waterford,,,,1.3,4.75,8,1.34,5.5,8.25,1.32,4.91,7.42,1.38,5.6,8.4
-Ireland,Premier Division,28/08/2026,20:00,Drogheda,Dundalk,,,,3.1,3.2,2.15,3.15,3.4,2.2,3.06,3.31,2.13,3.3,3.5,2.28
-Ireland,Premier Division,30/08/2026,16:00,Derry City,Shamrock Rovers,,,,2.6,3.25,2.5,2.65,3.35,2.6,2.54,3.27,2.51,2.66,3.35,2.6
-Japan,J1 League,29/08/2026,10:00,Gamba Osaka,Sanfrecce Hiroshima,,,,5,3.9,1.61,5,4.2,1.65,4.67,4,1.62,5.1,4.3,1.67
-Japan,J1 League,29/08/2026,10:00,Mito,Machida,,,,4,3.2,1.96,4,3.25,2.05,3.76,3.15,2.01,4.2,3.25,2.06
-Japan,J1 League,29/08/2026,10:30,Shimizu S-Pulse,Kashiwa Reysol,,,,3.4,3.3,2.1,3.4,3.4,2.2,3.24,3.28,2.14,3.5,3.35,2.2
-Japan,J1 League,29/08/2026,10:30,V-Varen Nagasaki,FC Tokyo,,,,5.25,3.6,1.66,5.25,3.8,1.73,4.69,3.65,1.69,5.1,3.85,1.7
-Japan,J1 League,29/08/2026,11:00,Kawasaki Frontale,Chiba,,,,1.53,4,5.75,1.55,4.5,5.75,1.52,4.21,5.34,1.57,4.4,5.6
-Japan,J1 League,29/08/2026,11:00,Kyoto,Avispa Fukuoka,,,,2.57,3.1,2.75,2.6,3.1,2.88,2.54,3.02,2.81,2.66,3.1,2.94
-Japan,J1 League,29/08/2026,11:00,Nagoya Grampus,Okayama,,,,2.45,3.3,2.75,2.55,3.3,2.8,2.46,3.24,2.73,2.62,3.35,2.88
-Japan,J1 League,29/08/2026,11:00,Urawa Reds,Yokohama F. Marinos,,,,2.35,3.3,2.85,2.5,3.3,2.9,2.4,3.22,2.83,2.48,3.3,2.94
-Japan,J1 League,29/08/2026,11:00,Verdy,Kashima Antlers,,,,5.25,3.4,1.68,5.25,3.5,1.8,4.6,3.37,1.77,5.1,3.55,1.82
-Japan,J1 League,29/08/2026,11:00,Vissel Kobe,Cerezo Osaka,,,,1.91,3.3,3.9,1.95,3.5,3.9,1.92,3.39,3.76,1.99,3.55,3.95
-Mexico,Liga MX,29/08/2026,02:00,Atlante,Club Leon,,,,2.65,3.3,2.57,2.65,3.5,2.57,2.58,3.34,2.48,2.84,3.7,2.6
-Mexico,Liga MX,29/08/2026,02:00,Necaxa,Cruz Azul,,,,3.3,3.5,2.1,3.3,3.6,2.1,3.15,3.5,2.06,3.35,3.75,2.18
-Mexico,Liga MX,29/08/2026,04:10,Club Tijuana,UNAM Pumas,,,,2.1,3.4,3.4,2.2,3.4,3.4,2.14,3.33,3.12,2.26,3.55,3.35
-Mexico,Liga MX,30/08/2026,00:00,Atlas,Queretaro,,,,2.1,3.4,3.4,2.2,3.4,3.6,2.12,3.23,3.24,2.16,3.4,3.65
-Mexico,Liga MX,30/08/2026,00:00,Pachuca,Guadalajara Chivas,,,,3.3,3.5,2.1,3.3,3.5,2.15,3.11,3.43,2.09,3.3,3.35,2.16
-Mexico,Liga MX,30/08/2026,02:05,Club America,Puebla,,,,1.35,4.75,8.5,1.36,5.25,9.1,1.33,4.78,7.72,1.4,5.2,8.6
-Mexico,Liga MX,30/08/2026,04:10,Santos Laguna,Tigres UANL,,,,4.75,3.8,1.68,4.75,4,1.75,4.14,3.82,1.7,4.4,4.1,1.78
-Mexico,Liga MX,31/08/2026,01:00,Toluca,Juarez,,,,1.22,6.5,10,1.28,6.5,10,1.24,5.8,8.83,1.29,6.6,10.5
-Mexico,Liga MX,31/08/2026,03:10,Monterrey,Atl. San Luis,,,,1.41,4.5,7,1.49,4.6,7,1.45,4.4,5.73,1.52,4.7,6.2
-Norway,Eliteserien,29/08/2026,15:00,Valerenga,Molde,,,,2.63,3.8,2.4,2.7,4,2.4,2.57,3.88,2.28,,,
-Norway,Eliteserien,29/08/2026,17:00,Viking,Aalesund,,,,1.29,6,8.5,1.3,6.25,9.25,1.26,5.97,8.14,1.31,6.6,8.8
-Norway,Eliteserien,30/08/2026,13:30,Bodo/Glimt,Rosenborg,,,,1.36,5.5,6.5,1.37,5.5,7.2,1.33,5.33,6.81,1.4,5.8,7
-Norway,Eliteserien,30/08/2026,16:00,HamKam,Kristiansund,,,,1.83,3.9,3.75,1.87,3.9,4,1.81,3.69,3.78,1.87,3.9,4.3
-Norway,Eliteserien,30/08/2026,16:00,Sandefjord,Brann,,,,3,3.75,2.15,3,3.8,2.2,2.92,3.66,2.12,3.05,3.95,2.16
-Norway,Eliteserien,30/08/2026,16:00,Start,KFUM Oslo,,,,2.2,3.4,3.2,2.22,3.7,3.2,2.18,3.53,2.9,2.2,3.7,2.98
-Norway,Eliteserien,30/08/2026,16:00,Tromso,Sarpsborg 08,,,,1.65,3.9,5,1.65,4,5,1.63,3.93,4.62,1.66,4.2,4.8
-Norway,Eliteserien,30/08/2026,18:15,Lillestrom,Fredrikstad,,,,1.7,3.9,4.5,1.73,4,4.5,1.68,3.78,4.4,1.81,3.9,4.4
-Poland,Ekstraklasa,28/08/2026,17:00,Wisla Plock,Korona Kielce,,,,2.63,3.1,2.55,2.8,3.3,2.57,2.67,3.17,2.52,2.92,3.2,2.72
-Poland,Ekstraklasa,28/08/2026,19:30,Legia,Slask Wroclaw,,,,1.48,3.9,6.5,1.52,4.33,6.5,1.48,4.17,5.78,1.51,4.7,6.8
-Poland,Ekstraklasa,29/08/2026,11:15,Radomiak Radom,Cracovia,,,,2.9,3.2,2.25,3,3.5,2.3,2.89,3.37,2.24,3,3.55,2.3
-Poland,Ekstraklasa,29/08/2026,13:45,Motor Lublin,Piast Gliwice,,,,2.3,3.4,2.8,2.38,3.6,2.8,2.29,3.48,2.76,2.34,1.09,2.26
-Poland,Ekstraklasa,29/08/2026,16:30,Wisla,Wieczysta Krakow,,,,1.73,3.8,3.8,1.83,4.33,3.85,1.75,3.96,3.74,1.82,4.3,4
-Poland,Ekstraklasa,29/08/2026,19:15,Zaglebie,Pogon Szczecin,,,,2.55,3.2,2.6,2.55,3.4,2.7,2.49,3.26,2.61,2.58,3.35,2.68
-Poland,Ekstraklasa,30/08/2026,13:45,Rakow,Jagiellonia,,,,2.05,3.4,3.3,2.08,3.65,3.35,2.03,3.5,3.22,2.06,3.55,3.15
-Poland,Ekstraklasa,30/08/2026,16:30,Gornik Zabrze,GKS Katowice,,,,1.83,3.5,3.8,1.88,3.8,3.8,1.81,3.69,3.73,1.87,3.35,3.85
-Poland,Ekstraklasa,30/08/2026,19:15,Widzew Lodz,Lech Poznan,,,,3,3.4,2.15,3,3.8,2.2,2.91,3.59,2.14,2.82,3.7,1.96
-Romania,Superliga,28/08/2026,16:00,FC Voluntari,Otelul,,,,2.45,3,2.7,2.55,3.3,2.8,2.41,3.16,2.73,2.6,3.25,2.98
-Romania,Superliga,28/08/2026,19:00,U. Cluj,Petrolul,,,,1.62,3.5,4.5,1.7,3.8,4.75,1.66,3.66,4.54,1.76,3.9,5.3
-Romania,Superliga,29/08/2026,14:00,Csikszereda M. Ciuc,CFR Cluj,,,,3.7,3.3,1.85,3.75,3.5,1.98,3.58,3.39,1.91,3.9,3.45,1.96
-Romania,Superliga,29/08/2026,16:30,FC Arges,Sepsi Sf. Gheorghe,,,,2.1,2.88,3.5,2.2,3,3.7,2.14,2.91,3.49,2.18,2.9,3.9
-Romania,Superliga,29/08/2026,19:30,Corvinul,Dinamo Bucuresti,,,,3,3.2,2.15,3.25,3.3,2.25,3.08,3.22,2.17,3.4,3.35,2.28
-Romania,Superliga,30/08/2026,14:00,Farul Constanta,FC Botosani,,,,1.85,3.4,3.6,1.98,3.5,3.75,1.91,3.43,3.57,1.93,3.6,3.85
-Romania,Superliga,30/08/2026,19:00,FCSB,UTA Arad,,,,1.53,3.8,5.25,1.53,4.5,5.75,1.49,4.13,5.47,1.52,4.5,6.2
-Romania,Superliga,31/08/2026,18:30,FC Rapid Bucuresti,Univ. Craiova,,,,2.88,3.1,2.25,2.88,3.5,2.45,2.75,3.22,2.35,2.92,3.45,2.58
-Sweden,Allsvenskan,29/08/2026,14:00,Elfsborg,Degerfors,,,,1.53,3.8,6,1.58,4.1,6,1.54,3.92,5.52,1.6,4.1,6.2
-Sweden,Allsvenskan,29/08/2026,14:00,Hacken,Vasteras SK,,,,1.46,4.5,5.75,1.5,4.75,6.2,1.46,4.53,5.56,1.52,4.9,5.9
-Sweden,Allsvenskan,29/08/2026,16:30,Halmstad,Kalmar,,,,3.3,3.5,2.01,3.45,3.5,2.1,3.29,3.45,2.03,3.5,3.55,2.1
-Sweden,Allsvenskan,30/08/2026,13:00,AIK,Hammarby,,,,4.5,4.33,1.61,4.8,4.33,1.65,4.53,4.14,1.61,4.8,4.3,1.7
-Sweden,Allsvenskan,30/08/2026,15:30,Goteborg,Orgryte,,,,1.49,4.2,5.75,1.57,4.35,5.75,1.53,4.2,5.03,1.56,4.5,5.1
-Sweden,Allsvenskan,31/08/2026,18:00,Djurgarden,Mjallby,,,,1.49,4.2,5.75,1.55,4.75,5.75,1.5,4.31,5.25,1.55,4.4,5.5
-Sweden,Allsvenskan,31/08/2026,18:00,GAIS,Brommapojkarna,,,,1.56,3.9,5.5,1.64,4.1,5.5,1.6,3.91,4.83,1.08,1.09,1.09
-Sweden,Allsvenskan,31/08/2026,18:00,Sirius,Malmo FF,,,,1.86,3.7,3.7,1.93,4,3.7,1.85,3.82,3.47,1.89,4.1,3.5
-Switzerland,Super League,29/08/2026,17:00,Lausanne,Zurich,,,,1.76,4,3.9,1.8,4,4.25,1.77,3.76,3.93,1.84,3.95,4.4
-Switzerland,Super League,29/08/2026,17:00,Servette,Luzern,,,,1.79,4,3.75,1.93,4,3.75,1.83,3.92,3.51,1.9,4.3,3.65
-Switzerland,Super League,29/08/2026,19:30,Young Boys,Basel,,,,1.61,4.33,4.5,1.63,4.5,4.5,1.6,4.35,4.36,1.66,1.09,4
-Switzerland,Super League,30/08/2026,13:00,Sion,Lugano,,,,2.1,3.75,3,2.25,3.75,3.2,2.13,3.54,2.99,2.16,3.5,3.25
-Switzerland,Super League,30/08/2026,15:30,St. Gallen,Thun,,,,1.61,4.2,4.75,1.65,4.5,4.75,1.6,4.3,4.38,1.7,1.1,4.4
-Switzerland,Super League,30/08/2026,15:30,Vaduz,Grasshoppers,,,,2.01,3.75,3.25,2.08,3.8,3.25,2.02,3.73,3.1,1.06,1.08,1.1
-USA,MLS,29/08/2026,21:30,Seattle Sounders,Chicago Fire,,,,2.85,3.7,2.25,2.85,3.8,2.28,2.75,3.72,2.25,2.94,4,2.36
-USA,MLS,30/08/2026,00:30,Atlanta Utd,Charlotte,,,,2.35,3.7,2.7,2.4,3.8,2.75,2.34,3.62,2.68,2.52,3.75,2.8
-USA,MLS,30/08/2026,00:30,DC United,Los Angeles FC,,,,3.5,3.75,1.96,3.5,3.8,2.05,3.28,3.67,2,3.45,3.75,2.1
-USA,MLS,30/08/2026,00:30,Inter Miami,CF Montreal,,,,1.33,5.5,7,1.4,5.75,7,1.35,5.49,6.51,1.4,5.8,7.2
-USA,MLS,30/08/2026,00:30,New York Red Bulls,Philadelphia Union,,,,3,3.9,2.1,3,4,2.2,2.9,3.83,2.12,3.1,4.1,2.2
-USA,MLS,30/08/2026,00:30,Toronto FC,New York City,,,,2.45,3.5,2.7,2.5,3.6,2.7,2.42,3.52,2.63,2.5,3.7,2.8
-USA,MLS,30/08/2026,01:30,Houston Dynamo,San Jose Earthquakes,,,,1.66,4.1,4.5,1.73,4.2,4.5,1.71,3.97,4.19,1.78,4.1,4.7
-USA,MLS,30/08/2026,01:30,Minnesota United,Orlando City,,,,1.71,4,4.33,1.81,4.2,4.33,1.78,4.02,3.74,1.86,4.3,4.1
-USA,MLS,30/08/2026,01:30,Nashville SC,FC Cincinnati,,,,1.76,3.9,4.2,1.8,4.2,4.2,1.76,3.94,3.87,1.85,4.2,4.1
-USA,MLS,30/08/2026,01:30,Sporting Kansas City,Vancouver Whitecaps,,,,7,5,1.37,7,5.5,1.43,6.32,5,1.39,7,5.4,1.44
-USA,MLS,30/08/2026,02:30,Colorado Rapids,Real Salt Lake,,,,1.96,3.75,3.5,2.05,3.8,3.5,1.98,3.69,3.31,2.08,3.8,3.55
-USA,MLS,30/08/2026,03:30,Portland Timbers,Austin FC,,,,1.53,4.2,5.5,1.6,4.5,5.5,1.57,4.28,4.81,1.64,4.6,5.1
-USA,MLS,30/08/2026,03:30,San Diego FC,Los Angeles Galaxy,,,,1.76,4.2,3.9,1.85,4.33,3.9,1.79,4.06,3.67,1.85,4.3,3.95
-USA,MLS,30/08/2026,21:30,Columbus Crew,New England Revolution,,,,1.86,3.75,3.7,1.98,3.8,3.7,1.9,3.64,3.5,1.99,3.75,3.75
-USA,MLS,31/08/2026,00:00,St. Louis City,FC Dallas,,,,1.91,3.8,3.6,1.98,3.8,3.6,1.94,3.71,3.34,2.06,3.9,3.5
+Austria,Bundesliga,01/09/2026,18:30,Wolfsberger AC,LASK,,,,5.75,4.6,1.52,5.37,4.45,1.49,6.2,4.8,1.56,5.75,4.33,1.46
+Austria,Bundesliga,02/09/2026,17:30,Austria Vienna,Tirol,,,,1.93,3.6,3.75,1.87,3.56,3.65,1.99,3.75,4,1.86,3.6,3.7
+Austria,Bundesliga,02/09/2026,19:30,Salzburg,SK Rapid,,,,1.83,4,3.8,1.79,3.89,3.66,1.83,4.3,3.9,1.79,3.8,3.8
+Brazil,Serie A,02/09/2026,23:30,Flamengo RJ,Mirassol,,,,1.29,5.75,13,1.24,5.59,10.65,1.27,6.4,13.5,1.22,5.75,11
+Denmark,Superliga,02/09/2026,19:00,Aarhus,Midtjylland,,,,3.2,3.7,2.18,3.09,3.58,2.06,3.25,3.7,2.16,3.2,3.6,2.05
+Denmark,Superliga,03/09/2026,19:00,FC Copenhagen,Nordsjaelland,,,,2.08,3.9,3.25,2,3.76,3.12,2.1,4,3.1,2.01,3.9,3.2
+Japan,J1 League,02/09/2026,11:00,Avispa Fukuoka,Urawa Reds,,,,2.45,3.2,3.1,2.36,3.11,2.98,2.54,3.3,3.05,2.4,3,3.1
+Japan,J1 League,02/09/2026,11:00,Cerezo Osaka,Kashiwa Reysol,,,,3.25,3.5,2.3,3.05,3.43,2.15,,,,3.2,3.5,2.1
+Japan,J1 League,02/09/2026,11:00,Chiba,Okayama,,,,4,3.7,1.95,3.79,3.53,1.87,4.1,3.7,1.96,4,3.6,1.81
+Japan,J1 League,02/09/2026,11:00,Machida,Kawasaki Frontale,,,,1.95,3.6,4.2,1.9,3.48,3.74,1.99,3.65,4,1.86,3.4,4.2
+Japan,J1 League,02/09/2026,11:00,Mito,Kashima Antlers,,,,4.2,3.5,1.91,3.92,3.42,1.87,4.3,3.55,1.93,4.2,3.5,1.81
+Japan,J1 League,02/09/2026,11:00,Sanfrecce Hiroshima,Nagoya Grampus,,,,1.52,4.5,6,1.49,4.29,5.6,1.55,4.6,6.4,1.49,4.2,6
+Japan,J1 League,02/09/2026,11:00,Shimizu S-Pulse,FC Tokyo,,,,4,3.4,2.05,3.56,3.32,2.01,3.85,3.45,2.1,4,3.3,1.91
+Japan,J1 League,02/09/2026,11:00,Verdy,Vissel Kobe,,,,4.1,3.13,2.15,3.8,3.05,2.05,4,3.2,2.16,4,3.1,2.01
+Japan,J1 League,02/09/2026,11:00,V-Varen Nagasaki,Gamba Osaka,,,,3.6,3.6,2.1,3.33,3.44,2.04,3.6,3.7,2.12,3.6,3.4,2.01
+Japan,J1 League,02/09/2026,11:00,Yokohama F. Marinos,Kyoto,,,,2.2,3.5,3.3,2.15,3.38,3.13,2.16,3.55,3.35,2.15,3.3,3.3
+Poland,Ekstraklasa,03/09/2026,17:00,Rakow,Gornik Zabrze,,,,2.2,3.5,3.2,2.13,3.38,3.06,2.2,3.5,3.25,2.15,3.2,3.2
+Poland,Ekstraklasa,03/09/2026,19:30,Lech Poznan,Jagiellonia,,,,1.65,4.33,4.75,1.6,4.14,4.46,1.62,4,4.7,1.62,4,4.75
+Sweden,Allsvenskan,03/09/2026,18:00,Mjallby,Djurgarden,,,,3.8,3.85,2.63,3.6,3.73,1.87,4,4,1.84,3.7,3.8,1.76
+Switzerland,Super League,01/09/2026,19:30,Zurich,Young Boys,,,,5,4.75,1.58,4.66,4.46,1.53,5.3,4.9,1.62,5,4.5,1.51
+Switzerland,Super League,02/09/2026,19:30,Grasshoppers,St. Gallen,,,,4.33,4.2,1.73,4.11,4,1.69,4.2,4.3,1.77,4.33,4,1.66
+Switzerland,Super League,02/09/2026,19:30,Luzern,Vaduz,,,,1.6,4.6,5,1.56,4.39,4.58,1.7,4.4,4.8,1.53,4.33,5
+Switzerland,Super League,02/09/2026,19:30,Thun,Lausanne,,,,2.1,3.8,3.5,2,3.66,3.21,2,3.9,3.5,1.96,3.75,3.4
+Switzerland,Super League,03/09/2026,19:30,Basel,Sion,,,,2.63,3.75,2.55,2.46,3.61,2.47,2.48,3.8,2.64,2.45,3.6,2.55
+Switzerland,Super League,03/09/2026,19:30,Lugano,Servette,,,,2.08,3.8,3.45,2,3.59,3.23,2.06,3.75,3.35,2.01,3.6,3.4
